@@ -35,8 +35,10 @@ GENERAL_TIER2 = [
 # ---------------------------------------------------------------------------
 INTERVENTIONAL_TIER1 = [
     "JACC. Cardiovascular Interventions",
+    "JACC. cardiovascular interventions",
     "EuroIntervention",
     "Circulation. Cardiovascular Interventions",
+    "Circulation. cardiovascular interventions",
 ]
 
 INTERVENTIONAL_TIER2 = [
