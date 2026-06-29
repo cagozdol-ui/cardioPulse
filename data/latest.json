@@ -1,0 +1,163 @@
+{
+  "generated_at": "2026-06-19T08:00:00",
+  "window_days": 7,
+  "categories": {
+    "genel": {
+      "label": "Genel Kardiyoloji",
+      "total_count": 6,
+      "tier1_count": 3,
+      "articles": [
+        {
+          "pmid": "00000001",
+          "title": "[ÖRNEK] 2026 Guideline for the Management of Heart Failure with Preserved Ejection Fraction",
+          "journal": "Circulation",
+          "pub_date": "2026-06-17",
+          "pub_types": ["Practice Guideline"],
+          "first_author": "Yancy C",
+          "doi": "10.0000/example.0001",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/",
+          "score": 88,
+          "tier": "tier1",
+          "primary_type": "Practice Guideline"
+        },
+        {
+          "pmid": "00000002",
+          "title": "[ÖRNEK] Long-Term Outcomes of Early Rhythm Control in Atrial Fibrillation: A Randomized Trial",
+          "journal": "European Heart Journal",
+          "pub_date": "2026-06-16",
+          "pub_types": ["Randomized Controlled Trial"],
+          "first_author": "Kirchhof P",
+          "doi": "10.0000/example.0002",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/",
+          "score": 76,
+          "tier": "tier1",
+          "primary_type": "Randomized Controlled Trial"
+        },
+        {
+          "pmid": "00000003",
+          "title": "[ÖRNEK] Polygenic Risk Scores and Incident Coronary Disease: A Meta-Analysis of 14 Cohorts",
+          "journal": "Journal of the American College of Cardiology",
+          "pub_date": "2026-06-15",
+          "pub_types": ["Meta-Analysis"],
+          "first_author": "Khera A",
+          "doi": "10.0000/example.0003",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/",
+          "score": 70,
+          "tier": "tier1",
+          "primary_type": "Meta-Analysis"
+        },
+        {
+          "pmid": "00000004",
+          "title": "[ÖRNEK] Sex Differences in Microvascular Dysfunction Among Patients with Angina and Non-Obstructive Coronary Arteries",
+          "journal": "Journal of the American Heart Association",
+          "pub_date": "2026-06-14",
+          "pub_types": ["Observational Study"],
+          "first_author": "Pepine C",
+          "doi": "10.0000/example.0004",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/",
+          "score": 42,
+          "tier": "tier2",
+          "primary_type": "Observational Study"
+        },
+        {
+          "pmid": "00000005",
+          "title": "[ÖRNEK] Mitochondrial Dysfunction in Heart Failure: A Narrative Review",
+          "journal": "Nature Reviews Cardiology",
+          "pub_date": "2026-06-12",
+          "pub_types": ["Review"],
+          "first_author": "Murphy E",
+          "doi": "10.0000/example.0005",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/",
+          "score": 55,
+          "tier": "tier1",
+          "primary_type": "Review"
+        },
+        {
+          "pmid": "00000006",
+          "title": "[ÖRNEK] Wearable Continuous Rhythm Monitoring After Cryptogenic Stroke: A Comparative Study",
+          "journal": "Heart",
+          "pub_date": "2026-06-13",
+          "pub_types": ["Comparative Study"],
+          "first_author": "Healey J",
+          "doi": "10.0000/example.0006",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/",
+          "score": 36,
+          "tier": "tier2",
+          "primary_type": "Comparative Study"
+        }
+      ]
+    },
+    "girisimsel": {
+      "label": "Girişimsel & Koroner",
+      "total_count": 5,
+      "tier1_count": 2,
+      "articles": [
+        {
+          "pmid": "00000007",
+          "title": "[ÖRNEK] Intravascular Lithotripsy vs. Rotational Atherectomy for Severely Calcified Lesions: A Randomized Trial",
+          "journal": "JACC. Cardiovascular Interventions",
+          "pub_date": "2026-06-18",
+          "pub_types": ["Randomized Controlled Trial"],
+          "first_author": "Hill J",
+          "doi": "10.0000/example.0007",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/",
+          "score": 79,
+          "tier": "tier1",
+          "primary_type": "Randomized Controlled Trial"
+        },
+        {
+          "pmid": "00000008",
+          "title": "[ÖRNEK] 2026 Consensus Statement on Physiology-Guided Revascularization in Multivessel Disease",
+          "journal": "EuroIntervention",
+          "pub_date": "2026-06-17",
+          "pub_types": ["Guideline"],
+          "first_author": "Escaned J",
+          "doi": "10.0000/example.0008",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/",
+          "score": 82,
+          "tier": "tier1",
+          "primary_type": "Guideline"
+        },
+        {
+          "pmid": "00000009",
+          "title": "[ÖRNEK] Five-Year Stent Thrombosis Rates with Bioresorbable Scaffolds: A Multicenter Registry",
+          "journal": "Catheterization and Cardiovascular Interventions",
+          "pub_date": "2026-06-15",
+          "pub_types": ["Multicenter Study"],
+          "first_author": "Onuma Y",
+          "doi": "10.0000/example.0009",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/",
+          "score": 38,
+          "tier": "tier2",
+          "primary_type": "Multicenter Study"
+        },
+        {
+          "pmid": "00000010",
+          "title": "[ÖRNEK] NIRS-IVUS Guided versus Angiography-Guided PCI in Vulnerable Plaque: A Comparative Study",
+          "journal": "Circulation. Cardiovascular Interventions",
+          "pub_date": "2026-06-13",
+          "pub_types": ["Comparative Study"],
+          "first_author": "Stone G",
+          "doi": "10.0000/example.0010",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/",
+          "score": 50,
+          "tier": "tier1",
+          "primary_type": "Comparative Study"
+        },
+        {
+          "pmid": "00000011",
+          "title": "[ÖRNEK] Radial versus Femoral Access in Complex CTO-PCI: A Systematic Review",
+          "journal": "American Journal of Cardiology",
+          "pub_date": "2026-06-12",
+          "pub_types": ["Systematic Review"],
+          "first_author": "Brilakis E",
+          "doi": "10.0000/example.0011",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/",
+          "score": 45,
+          "tier": "tier2",
+          "primary_type": "Systematic Review"
+        }
+      ]
+    }
+  }
+}
