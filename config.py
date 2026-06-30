@@ -1,271 +1,147 @@
-#!/usr/bin/env python3
 """
-CardioPulse - fetch_and_score.py
-=================================
-PubMed E-utilities üzerinden tanımlı dergi listelerinden son N günde
-yayınlanan makaleleri çeker, skorlar ve data/latest.json dosyasına yazar.
-
-Kullanım:
-    python fetch_and_score.py
-
-Gereksinim:
-    pip install requests
-
-Bu script GitHub Actions üzerinde günlük olarak çalıştırılmak üzere
-tasarlanmıştır (bkz. .github/workflows/daily-update.yml), ancak yerelde
-de manuel çalıştırılabilir.
+CardioPulse - Yapılandırma dosyası
+====================================
+Dergi listelerini, ağırlıkları ve kategori tanımlarını burada düzenle.
+Yeni dergi eklemek için ilgili listeye PubMed'deki TAM dergi adını ekle
+(kısaltma değil — örn. "Circulation" değil "Circ Res" gibi PubMed TA alanına
+uyan biçim; emin değilsen dergiyi PubMed'de ara, "Journal" filtresine bak).
 """
-import json
-import os
-import sys
-import time
-import xml.etree.ElementTree as ET
-from datetime import date, datetime, timedelta
 
-import requests
+# ---------------------------------------------------------------------------
+# KATEGORİ 1: GENEL KARDİYOLOJİ
+# ---------------------------------------------------------------------------
+GENERAL_TIER1 = [
+    "Circulation",
+    "European Heart Journal",
+    "Journal of the American College of Cardiology",
+    "Circulation Research",
+    "Nature Reviews Cardiology",
+    "JAMA Cardiology",
+]
 
-import config
+# Bunlar genel dahiliye dergileri — sadece dergi adıyla aranırsa kardiyoloji
+# dışı tüm makaleler de gelir. Bu yüzden BROAD_JOURNAL_KEYWORD_FILTER ile
+# birlikte kullanılırlar (bkz. aşağıdaki BROAD_JOURNALS).
+BROAD_JOURNALS_TIER1 = [
+    "The New England Journal of Medicine",
+    "Lancet (London, England)",
+]
 
-EUTILS_BASE = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils"
+# Bu dergilerden sadece bu anahtar kelimelerden en az birini içeren
+# makaleler alınır (PubMed [tiab] = title/abstract alanı taraması)
+BROAD_JOURNAL_KEYWORD_FILTER = (
+    "(cardiac[tiab] OR cardiovascular[tiab] OR coronary[tiab] OR "
+    "heart[tiab] OR myocardial[tiab] OR arrhythmia[tiab] OR "
+    "atrial fibrillation[tiab] OR heart failure[tiab] OR "
+    "valve[tiab] OR aortic[tiab])"
+)
 
+GENERAL_TIER2 = [
+    "European Journal of Heart Failure",
+    "Journal of the American Heart Association",
+    "Heart",
+    "International Journal of Cardiology",
+    "American Heart Journal",
+    "European Journal of Preventive Cardiology",
+    "Cardiovascular Research",
+    "JACC. Heart Failure",
+]
 
-def build_journal_term(journals, broad_journals=None):
-    """Normal dergi listesi + (varsa) anahtar-kelime filtreli geniş dergiler
-    için PubMed arama terimi oluşturur."""
-    parts = [f'"{j}"[ta]' for j in journals]
+# ---------------------------------------------------------------------------
+# KATEGORİ 2: GİRİŞİMSEL / KORONER KARDİYOLOJİ
+# ---------------------------------------------------------------------------
+INTERVENTIONAL_TIER1 = [
+    "JACC. Cardiovascular Interventions",
+    "JACC. cardiovascular interventions",
+    "EuroIntervention",
+    "Circulation. Cardiovascular Interventions",
+    "Circulation. cardiovascular interventions",
+]
 
-    if broad_journals:
-        broad_parts = [f'"{j}"[ta]' for j in broad_journals]
-        broad_term = (
-            "(" + " OR ".join(broad_parts) + ") AND " + config.BROAD_JOURNAL_KEYWORD_FILTER
-        )
-        parts.append(f"({broad_term})")
+INTERVENTIONAL_TIER2 = [
+    "Catheterization and Cardiovascular Interventions",
+    "JACC. Cardiovascular Imaging",
+    "Cardiovascular Revascularization Medicine",
+    "American Journal of Cardiology",
+    "Coronary Artery Disease",
+    "International Journal of Cardiovascular Imaging",
+]
 
-    return "(" + " OR ".join(parts) + ")"
+# ---------------------------------------------------------------------------
+# KATEGORİ 3: DERLEMELER (review-odaklı dergiler)
+# ---------------------------------------------------------------------------
+# Bu kategori "tier" ayrımı yapmaz — derleme/review ağırlıklı dergilerin
+# tamamından makale alır, skorlama tamamen makale tipine (Review,
+# Systematic Review vb.) ve güncelliğe dayanır.
+REVIEW_JOURNALS = [
+    "Cardiology Clinics",
+    "Progress in Cardiovascular Diseases",
+    "Current Problems in Cardiology",
+    "Current Cardiology Reports",
+    "Heart Failure Clinics",
+    "Cardiac Electrophysiology Clinics",
+    "Interventional Cardiology Clinics",
+    "Current Opinion in Cardiology",
+    "Trends in Cardiovascular Medicine",
+    "Reviews in Cardiovascular Medicine",
+]
 
+CATEGORIES = {
+    "genel": {
+        "label": "Genel Kardiyoloji",
+        "tier1": GENERAL_TIER1,
+        "tier2": GENERAL_TIER2,
+        "broad_tier1": BROAD_JOURNALS_TIER1,  # NEJM/Lancet gibi - anahtar kelime filtreli
+    },
+    "girisimsel": {
+        "label": "Girişimsel & Koroner",
+        "tier1": INTERVENTIONAL_TIER1,
+        "tier2": INTERVENTIONAL_TIER2,
+    },
+    "derlemeler": {
+        "label": "Derlemeler",
+        "tier1": [],
+        "tier2": REVIEW_JOURNALS,  # hepsi tier2 muamelesi görür, ayrım yok
+        "review_only": True,  # sadece Review/Systematic Review tipi makaleler alınır
+    },
+}
 
-def esearch(term, mindate, maxdate, retmax=400):
-    """PubMed araması yapar, PMID listesi döner."""
-    params = {
-        "db": "pubmed",
-        "term": term,
-        "retmode": "json",
-        "retmax": retmax,
-        "datetype": "pdat",
-        "mindate": mindate,
-        "maxdate": maxdate,
-    }
-    if config.NCBI_API_KEY:
-        params["api_key"] = config.NCBI_API_KEY
-    if config.NCBI_EMAIL and "example.com" not in config.NCBI_EMAIL:
-        params["email"] = config.NCBI_EMAIL
+# ---------------------------------------------------------------------------
+# SKORLAMA AĞIRLIKLARI
+# ---------------------------------------------------------------------------
+JOURNAL_WEIGHT_TIER1 = 40
+JOURNAL_WEIGHT_TIER2 = 25
 
-    resp = requests.get(f"{EUTILS_BASE}/esearch.fcgi", params=params, timeout=30)
-    resp.raise_for_status()
-    data = resp.json()
-    return data.get("esearchresult", {}).get("idlist", [])
+# Makale tipi ağırlıkları (PubMed PublicationType alanından okunur)
+ARTICLE_TYPE_WEIGHTS = {
+    "Practice Guideline": 35,
+    "Guideline": 35,
+    "Randomized Controlled Trial": 28,
+    "Meta-Analysis": 22,
+    "Systematic Review": 20,
+    "Review": 10,
+    "Multicenter Study": 6,
+    "Observational Study": 6,
+    "Comparative Study": 5,
+    "Clinical Trial": 8,
+    "Editorial": 3,
+}
+DEFAULT_ARTICLE_TYPE_WEIGHT = 5
 
+# Güncellik ağırlığı: yayın tarihi bugünden kaç gün önceyse (0-7 gün penceresi)
+RECENCY_MAX_WEIGHT = 15
+RECENCY_WINDOW_DAYS = 7
 
-def efetch(pmids):
-    """Verilen PMID'ler için tam künye bilgisini (XML) çeker."""
-    if not pmids:
-        return []
+# Tarama penceresi (gün) — her çalıştırmada son N günü tarar
+LOOKBACK_DAYS = 7
 
-    articles = []
-    chunk_size = 200
-    for i in range(0, len(pmids), chunk_size):
-        chunk = pmids[i : i + chunk_size]
-        params = {
-            "db": "pubmed",
-            "id": ",".join(chunk),
-            "rettype": "abstract",
-            "retmode": "xml",
-        }
-        if config.NCBI_API_KEY:
-            params["api_key"] = config.NCBI_API_KEY
+# NCBI E-utilities (API key olmadan 3 istek/sn, anahtarla 10 istek/sn)
+# Ücretsiz anahtar: https://www.ncbi.nlm.nih.gov/account/settings/  -> API Key Management
+# NCBI E-utilities (API key olmadan 3 istek/sn, anahtarla 10 istek/sn)
+# Ücretsiz anahtar: https://www.ncbi.nlm.nih.gov/account/settings/  -> API Key Management
+# Yerelde test ederken ortam değişkeni olarak ayarlayabilirsin: export NCBI_API_KEY=...
+# GitHub Actions'ta repo Settings > Secrets > Actions altına NCBI_API_KEY olarak eklenir.
+import os as _os
 
-        resp = requests.get(f"{EUTILS_BASE}/efetch.fcgi", params=params, timeout=60)
-        resp.raise_for_status()
-        articles.extend(parse_efetch_xml(resp.text))
-
-        # Rate limit: API key yoksa 3/sn, varsa 10/sn sınırına uy
-        time.sleep(0.4 if config.NCBI_API_KEY else 1.0)
-
-    return articles
-
-
-def parse_efetch_xml(xml_text):
-    root = ET.fromstring(xml_text)
-    out = []
-    for article in root.findall(".//PubmedArticle"):
-        try:
-            pmid = article.findtext(".//PMID", default="")
-            title = article.findtext(".//ArticleTitle", default="").strip()
-            journal = article.findtext(".//Journal/Title", default="").strip()
-
-            # Yayın tarihi (PubDate alanı çok değişken biçimde gelebilir)
-            pub_date_el = article.find(".//Journal/JournalIssue/PubDate")
-            pub_date = parse_pub_date(pub_date_el)
-
-            # Makale tipleri
-            pub_types = [
-                pt.text for pt in article.findall(".//PublicationTypeList/PublicationType")
-                if pt.text
-            ]
-
-            # İlk yazar
-            first_author_el = article.find(".//AuthorList/Author")
-            first_author = ""
-            if first_author_el is not None:
-                last = first_author_el.findtext("LastName", default="")
-                fore = first_author_el.findtext("ForeName", default="")
-                first_author = f"{last} {fore[:1]}".strip()
-
-            # DOI
-            doi = ""
-            for eloc in article.findall(".//ELocationID"):
-                if eloc.get("EIdType") == "doi":
-                    doi = eloc.text or ""
-
-            out.append(
-                {
-                    "pmid": pmid,
-                    "title": title,
-                    "journal": journal,
-                    "pub_date": pub_date.isoformat() if pub_date else None,
-                    "pub_types": pub_types,
-                    "first_author": first_author,
-                    "doi": doi,
-                    "url": f"https://pubmed.ncbi.nlm.nih.gov/{pmid}/",
-                }
-            )
-        except Exception as e:  # noqa: BLE001 - tek makale parse hatası tüm batch'i durdurmasın
-            print(f"[uyarı] makale parse edilemedi (PMID={pmid}): {e}", file=sys.stderr)
-            continue
-    return out
-
-
-def parse_pub_date(pub_date_el):
-    if pub_date_el is None:
-        return None
-    year = pub_date_el.findtext("Year")
-    month = pub_date_el.findtext("Month") or "Jan"
-    day = pub_date_el.findtext("Day") or "1"
-    if not year:
-        return None
-
-    month_map = {
-        "Jan": 1, "Feb": 2, "Mar": 3, "Apr": 4, "May": 5, "Jun": 6,
-        "Jul": 7, "Aug": 8, "Sep": 9, "Oct": 10, "Nov": 11, "Dec": 12,
-    }
-    try:
-        m = month_map.get(month, int(month) if str(month).isdigit() else 1)
-        d = int(day) if str(day).isdigit() else 1
-        return date(int(year), m, d)
-    except ValueError:
-        try:
-            return date(int(year), 1, 1)
-        except ValueError:
-            return None
-
-
-def score_article(article, tier1_journals, tier2_journals, today):
-    score = 0
-    is_tier1 = article["journal"] in tier1_journals
-    is_tier2 = article["journal"] in tier2_journals
-
-    if is_tier1:
-        score += config.JOURNAL_WEIGHT_TIER1
-    elif is_tier2:
-        score += config.JOURNAL_WEIGHT_TIER2
-
-    # En yüksek ağırlıklı makale tipini al
-    type_score = config.DEFAULT_ARTICLE_TYPE_WEIGHT
-    matched_type = None
-    for pt in article["pub_types"]:
-        w = config.ARTICLE_TYPE_WEIGHTS.get(pt, 0)
-        if w > type_score or matched_type is None:
-            if w > 0:
-                type_score = w
-                matched_type = pt
-    score += type_score
-
-    # Güncellik
-    if article["pub_date"]:
-        pub_date = date.fromisoformat(article["pub_date"])
-        days_old = (today - pub_date).days
-        days_old = max(0, days_old)
-        recency = max(
-            0,
-            round(
-                config.RECENCY_MAX_WEIGHT
-                * (config.RECENCY_WINDOW_DAYS - days_old)
-                / config.RECENCY_WINDOW_DAYS
-            ),
-        )
-        score += recency
-
-    article["score"] = score
-    article["tier"] = "tier1" if is_tier1 else ("tier2" if is_tier2 else "diger")
-    article["primary_type"] = matched_type or (article["pub_types"][0] if article["pub_types"] else "Orijinal Araştırma")
-    return article
-
-
-def run_category(key, cat_config, mindate, maxdate, today):
-    print(f"[{key}] taranıyor: {cat_config['label']}")
-    broad_tier1 = cat_config.get("broad_tier1", [])
-    all_journals = cat_config["tier1"] + cat_config["tier2"]
-    term = build_journal_term(all_journals, broad_journals=broad_tier1)
-
-    # Derleme-only kategoriler: sadece Review/Systematic Review tipi makaleler
-    if cat_config.get("review_only"):
-        term = f'({term}) AND (Review[pt] OR Systematic Review[pt])'
-
-    pmids = esearch(term, mindate, maxdate)
-    print(f"[{key}] {len(pmids)} makale bulundu, künye çekiliyor...")
-
-    articles = efetch(pmids)
-    # broad_tier1 dergileri de tier1 muamelesi görsün
-    effective_tier1 = cat_config["tier1"] + broad_tier1
-    scored = [
-        score_article(a, effective_tier1, cat_config["tier2"], today)
-        for a in articles
-    ]
-    scored.sort(key=lambda a: a["score"], reverse=True)
-
-    tier1_count = sum(1 for a in scored if a["tier"] == "tier1")
-    return {
-        "label": cat_config["label"],
-        "articles": scored,
-        "total_count": len(scored),
-        "tier1_count": tier1_count,
-    }
-
-
-def main():
-    today = date.today()
-    mindate_dt = today - timedelta(days=config.LOOKBACK_DAYS)
-    mindate = mindate_dt.strftime("%Y/%m/%d")
-    maxdate = today.strftime("%Y/%m/%d")
-
-    result = {
-        "generated_at": datetime.now().isoformat(),
-        "window_days": config.LOOKBACK_DAYS,
-        "categories": {},
-    }
-
-    for key, cat_config in config.CATEGORIES.items():
-        result["categories"][key] = run_category(key, cat_config, mindate, maxdate, today)
-
-    os.makedirs("data", exist_ok=True)
-    out_path = os.path.join("data", "latest.json")
-    with open(out_path, "w", encoding="utf-8") as f:
-        json.dump(result, f, ensure_ascii=False, indent=2)
-
-    print(f"\nTamamlandı -> {out_path}")
-    for key, cat in result["categories"].items():
-        print(f"  {cat['label']}: {cat['total_count']} makale ({cat['tier1_count']} Tier-1)")
-
-
-if __name__ == "__main__":
-    main()
+NCBI_API_KEY = _os.environ.get("NCBI_API_KEY", "")
+NCBI_EMAIL = "your-email@example.com"  # NCBI kayıt politikası için iletişim e-postan (isteğe bağlı ama önerilir)
