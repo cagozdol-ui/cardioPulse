@@ -29,8 +29,18 @@ import config
 EUTILS_BASE = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils"
 
 
-def build_journal_term(journals):
+def build_journal_term(journals, broad_journals=None):
+    """Normal dergi listesi + (varsa) anahtar-kelime filtreli geniş dergiler
+    için PubMed arama terimi oluşturur."""
     parts = [f'"{j}"[ta]' for j in journals]
+
+    if broad_journals:
+        broad_parts = [f'"{j}"[ta]' for j in broad_journals]
+        broad_term = (
+            "(" + " OR ".join(broad_parts) + ") AND " + config.BROAD_JOURNAL_KEYWORD_FILTER
+        )
+        parts.append(f"({broad_term})")
+
     return "(" + " OR ".join(parts) + ")"
 
 
@@ -203,15 +213,22 @@ def score_article(article, tier1_journals, tier2_journals, today):
 
 def run_category(key, cat_config, mindate, maxdate, today):
     print(f"[{key}] taranıyor: {cat_config['label']}")
+    broad_tier1 = cat_config.get("broad_tier1", [])
     all_journals = cat_config["tier1"] + cat_config["tier2"]
-    term = build_journal_term(all_journals)
+    term = build_journal_term(all_journals, broad_journals=broad_tier1)
+
+    # Derleme-only kategoriler: sadece Review/Systematic Review tipi makaleler
+    if cat_config.get("review_only"):
+        term = f'({term}) AND (Review[pt] OR Systematic Review[pt])'
 
     pmids = esearch(term, mindate, maxdate)
     print(f"[{key}] {len(pmids)} makale bulundu, künye çekiliyor...")
 
     articles = efetch(pmids)
+    # broad_tier1 dergileri de tier1 muamelesi görsün
+    effective_tier1 = cat_config["tier1"] + broad_tier1
     scored = [
-        score_article(a, cat_config["tier1"], cat_config["tier2"], today)
+        score_article(a, effective_tier1, cat_config["tier2"], today)
         for a in articles
     ]
     scored.sort(key=lambda a: a["score"], reverse=True)
