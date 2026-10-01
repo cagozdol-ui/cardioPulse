@@ -1,10 +1,27 @@
 {
-  "generated_at": "2026-09-30T10:47:05.911685",
+  "generated_at": "2026-10-01T11:13:29.020069",
   "window_days": 7,
   "categories": {
     "genel": {
       "label": "Genel Kardiyoloji",
       "articles": [
+        {
+          "pmid": "42813718",
+          "title": "2026 AHA/ACC/ACS/ASNC/HRS/SCA/SCCT/SCMR/SVM Guideline for Perioperative Cardiovascular Management for Noncardiac Surgery: A Report of the American College of Cardiology/American Heart Association Joint Committee on Clinical Practice Guidelines.",
+          "journal": "Journal of the American College of Cardiology",
+          "pub_date": "2026-09-29",
+          "pub_types": [
+            "Journal Article",
+            "Practice Guideline",
+            "Review"
+          ],
+          "first_author": "Thompson A",
+          "doi": "10.1016/j.jacc.2026.06.017",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42813718/",
+          "score": 86,
+          "tier": "tier1",
+          "primary_type": "Practice Guideline"
+        },
         {
           "pmid": "42804570",
           "title": "2026 AHA/ACC/ACS/ASNC/HRS/SCA/SCCT/SCMR/SVM Guideline for Perioperative Cardiovascular Management for Noncardiac Surgery: A Report of the American College of Cardiology/American Heart Association Joint Committee on Clinical Practice Guidelines.",
@@ -18,9 +35,42 @@
           "first_author": "",
           "doi": "10.1161/CIR.0000000000001472",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42804570/",
-          "score": 88,
+          "score": 86,
           "tier": "tier1",
           "primary_type": "Practice Guideline"
+        },
+        {
+          "pmid": "42018465",
+          "title": "2026 ACC/AHA/HRS Advanced Training Statement on Clinical Cardiac Electrophysiology (Revision of the 2015 ACC/AHA/HRS Advanced Training Statement on Clinical Cardiac Electrophysiology): A Report of the ACC Competency Management Committee.",
+          "journal": "Journal of the American College of Cardiology",
+          "pub_date": "2026-09-29",
+          "pub_types": [
+            "Journal Article",
+            "Practice Guideline"
+          ],
+          "first_author": "Joglar J",
+          "doi": "10.1016/j.jacc.2026.01.074",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42018465/",
+          "score": 86,
+          "tier": "tier1",
+          "primary_type": "Practice Guideline"
+        },
+        {
+          "pmid": "42554527",
+          "title": "Impact of Left Ventricular Unloading on Hemodynamics and Stunning in Complex PCI: A CHIP-BCIS3 Substudy.",
+          "journal": "Journal of the American College of Cardiology",
+          "pub_date": "2026-09-29",
+          "pub_types": [
+            "Journal Article",
+            "Randomized Controlled Trial",
+            "Multicenter Study"
+          ],
+          "first_author": "Ezad S",
+          "doi": "10.1016/j.jacc.2026.06.041",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42554527/",
+          "score": 79,
+          "tier": "tier1",
+          "primary_type": "Randomized Controlled Trial"
         },
         {
           "pmid": "42673980",
@@ -36,9 +86,25 @@
           "first_author": "Nielsen J",
           "doi": "10.1016/S0140-6736(26)01597-7",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42673980/",
-          "score": 74,
+          "score": 72,
           "tier": "tier1",
           "primary_type": "Randomized Controlled Trial"
+        },
+        {
+          "pmid": "42814074",
+          "title": "Food and Health: Nutrition for Prevention and Management of Cardiovascular Disease: 2026 ACC Scientific Statement: A Report of the American College of Cardiology.",
+          "journal": "Journal of the American College of Cardiology",
+          "pub_date": "2026-09-30",
+          "pub_types": [
+            "Journal Article",
+            "Review"
+          ],
+          "first_author": "Hu F",
+          "doi": "10.1016/j.jacc.2026.08.025",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42814074/",
+          "score": 63,
+          "tier": "tier1",
+          "primary_type": "Review"
         },
         {
           "pmid": "42804572",
@@ -53,7 +119,7 @@
           "first_author": "Al-Dalakta A",
           "doi": "10.1161/CIRCULATIONAHA.126.079230",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42804572/",
-          "score": 63,
+          "score": 61,
           "tier": "tier1",
           "primary_type": "Review"
         },
@@ -69,9 +135,40 @@
           "first_author": "Ujueta F",
           "doi": "10.1161/CIR.0000000000001464",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42639644/",
-          "score": 63,
+          "score": 61,
           "tier": "tier1",
           "primary_type": "Review"
+        },
+        {
+          "pmid": "42484585",
+          "title": "Refining the Role of Beta-Blockers in Cardiovascular Medicine.",
+          "journal": "Journal of the American College of Cardiology",
+          "pub_date": "2026-09-29",
+          "pub_types": [
+            "Journal Article",
+            "Review"
+          ],
+          "first_author": "Sperry B",
+          "doi": "10.1016/j.jacc.2026.06.015",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42484585/",
+          "score": 61,
+          "tier": "tier1",
+          "primary_type": "Review"
+        },
+        {
+          "pmid": "42815506",
+          "title": "Cardiovascular safety of orforglipron versus insulin glargine in adults with type 2 diabetes at increased cardiovascular risk (ACHIEVE-4): a phase 3, event-driven, randomised, open-label, non-inferiority, active comparator trial.",
+          "journal": "Lancet (London, England)",
+          "pub_date": "2026-09-30",
+          "pub_types": [
+            "Journal Article"
+          ],
+          "first_author": "Klein K",
+          "doi": "10.1016/S0140-6736(26)01865-9",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42815506/",
+          "score": 58,
+          "tier": "tier1",
+          "primary_type": "Journal Article"
         },
         {
           "pmid": "42667206",
@@ -80,14 +177,30 @@
           "pub_date": "2026-09-29",
           "pub_types": [
             "Journal Article",
+            "Multicenter Study",
             "Observational Study"
           ],
           "first_author": "Guedon A",
           "doi": "10.1161/CIRCULATIONAHA.126.080365",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42667206/",
-          "score": 59,
+          "score": 57,
           "tier": "tier1",
-          "primary_type": "Observational Study"
+          "primary_type": "Multicenter Study"
+        },
+        {
+          "pmid": "42813719",
+          "title": "The End of \"Cardiac Clearance\": Patient-Centered Care in Preoperative Cardiovascular Risk Assessment.",
+          "journal": "Journal of the American College of Cardiology",
+          "pub_date": "2026-09-29",
+          "pub_types": [
+            "Journal Article"
+          ],
+          "first_author": "Walsh M",
+          "doi": "10.1016/j.jacc.2026.08.024",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42813719/",
+          "score": 56,
+          "tier": "tier1",
+          "primary_type": "Journal Article"
         },
         {
           "pmid": "42808173",
@@ -100,7 +213,7 @@
           "first_author": "Yuan S",
           "doi": "10.1161/CIRCULATIONAHA.126.079863",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42808173/",
-          "score": 58,
+          "score": 56,
           "tier": "tier1",
           "primary_type": "Journal Article"
         },
@@ -115,7 +228,7 @@
           "first_author": "Deeb G",
           "doi": "10.1161/CIRCULATIONAHA.125.078584",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42808167/",
-          "score": 58,
+          "score": 56,
           "tier": "tier1",
           "primary_type": "Journal Article"
         },
@@ -130,7 +243,7 @@
           "first_author": "Gong W",
           "doi": "10.1161/CIRCULATIONAHA.126.079324",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42808155/",
-          "score": 58,
+          "score": 56,
           "tier": "tier1",
           "primary_type": "Journal Article"
         },
@@ -145,7 +258,7 @@
           "first_author": "Fullenkamp D",
           "doi": "10.1161/CIRCULATIONAHA.126.081419",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42804571/",
-          "score": 58,
+          "score": 56,
           "tier": "tier1",
           "primary_type": "Journal Article"
         },
@@ -160,7 +273,7 @@
           "first_author": "Yu B",
           "doi": "10.1161/CIRCULATIONAHA.126.081881",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42804568/",
-          "score": 58,
+          "score": 56,
           "tier": "tier1",
           "primary_type": "Letter"
         },
@@ -175,7 +288,7 @@
           "first_author": "Yang Y",
           "doi": "10.1161/CIRCULATIONAHA.126.081221",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42804567/",
-          "score": 58,
+          "score": 56,
           "tier": "tier1",
           "primary_type": "Letter"
         },
@@ -190,7 +303,7 @@
           "first_author": "Tona F",
           "doi": "10.1161/CIRCULATIONAHA.126.080575",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42804566/",
-          "score": 58,
+          "score": 56,
           "tier": "tier1",
           "primary_type": "Journal Article"
         },
@@ -205,7 +318,7 @@
           "first_author": "Saba L",
           "doi": "10.1161/CIRCULATIONAHA.126.082116",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42804565/",
-          "score": 58,
+          "score": 56,
           "tier": "tier1",
           "primary_type": "Journal Article"
         },
@@ -220,7 +333,7 @@
           "first_author": "Geagea M",
           "doi": "10.1161/CIRCULATIONAHA.126.082866",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42804564/",
-          "score": 58,
+          "score": 56,
           "tier": "tier1",
           "primary_type": "Journal Article"
         },
@@ -235,7 +348,7 @@
           "first_author": "Gu B",
           "doi": "10.1161/CIRCULATIONAHA.126.080139",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42804563/",
-          "score": 58,
+          "score": 56,
           "tier": "tier1",
           "primary_type": "Letter"
         },
@@ -250,7 +363,22 @@
           "first_author": "Wu M",
           "doi": "10.1161/CIRCULATIONAHA.125.074024",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42677471/",
-          "score": 58,
+          "score": 56,
+          "tier": "tier1",
+          "primary_type": "Journal Article"
+        },
+        {
+          "pmid": "42644784",
+          "title": "Outcomes After Lymphatic Embolization for Protein-Losing Enteropathy in Congenital Heart Disease.",
+          "journal": "Journal of the American College of Cardiology",
+          "pub_date": "2026-09-29",
+          "pub_types": [
+            "Journal Article"
+          ],
+          "first_author": "Smith C",
+          "doi": "10.1016/j.jacc.2026.07.036",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42644784/",
+          "score": 56,
           "tier": "tier1",
           "primary_type": "Journal Article"
         },
@@ -266,7 +394,7 @@
           "first_author": "Ferro E",
           "doi": "10.1161/CIRCULATIONAHA.126.081092",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42639654/",
-          "score": 58,
+          "score": 56,
           "tier": "tier1",
           "primary_type": "Comparative Study"
         },
@@ -281,7 +409,7 @@
           "first_author": "Jaeschke L",
           "doi": "10.1161/CIRCULATIONAHA.125.078476",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42610249/",
-          "score": 58,
+          "score": 56,
           "tier": "tier1",
           "primary_type": "Journal Article"
         },
@@ -296,9 +424,114 @@
           "first_author": "Shentu T",
           "doi": "10.1161/CIRCULATIONAHA.125.075682",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42578282/",
-          "score": 58,
+          "score": 56,
           "tier": "tier1",
           "primary_type": "Journal Article"
+        },
+        {
+          "pmid": "42554532",
+          "title": "Honoring William W. Parmley.",
+          "journal": "Journal of the American College of Cardiology",
+          "pub_date": "2026-09-29",
+          "pub_types": [
+            "Journal Article"
+          ],
+          "first_author": "DeMaria A",
+          "doi": "10.1016/j.jacc.2026.07.011",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42554532/",
+          "score": 56,
+          "tier": "tier1",
+          "primary_type": "Journal Article"
+        },
+        {
+          "pmid": "42554530",
+          "title": "Artificial Intelligence and the Future of Cardiovascular Medicine: From Signal to Inference.",
+          "journal": "Journal of the American College of Cardiology",
+          "pub_date": "2026-09-29",
+          "pub_types": [
+            "Journal Article"
+          ],
+          "first_author": "Friedman P",
+          "doi": "10.1016/j.jacc.2026.07.013",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42554530/",
+          "score": 56,
+          "tier": "tier1",
+          "primary_type": "Journal Article"
+        },
+        {
+          "pmid": "42484583",
+          "title": "Funding Source and the Online and Academic Impact of Cardiovascular Trials.",
+          "journal": "Journal of the American College of Cardiology",
+          "pub_date": "2026-09-29",
+          "pub_types": [
+            "Journal Article"
+          ],
+          "first_author": "Zahedi Tajrishi F",
+          "doi": "10.1016/j.jacc.2026.06.023",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42484583/",
+          "score": 56,
+          "tier": "tier1",
+          "primary_type": "Journal Article"
+        },
+        {
+          "pmid": "42367157",
+          "title": "Insights From the First Year of Program Signaling in Cardiovascular Disease Fellowship Recruitment.",
+          "journal": "Journal of the American College of Cardiology",
+          "pub_date": "2026-09-29",
+          "pub_types": [
+            "Journal Article"
+          ],
+          "first_author": "Soukoulis V",
+          "doi": "10.1016/j.jacc.2026.06.028",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42367157/",
+          "score": 56,
+          "tier": "tier1",
+          "primary_type": "Journal Article"
+        },
+        {
+          "pmid": "42813717",
+          "title": "Lymphatic Interventions for Protein-Losing Enteropathy: New Frontier or Last-Ditch Therapy?",
+          "journal": "Journal of the American College of Cardiology",
+          "pub_date": "2026-09-29",
+          "pub_types": [
+            "Editorial"
+          ],
+          "first_author": "Wu S",
+          "doi": "10.1016/j.jacc.2026.08.019",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42813717/",
+          "score": 54,
+          "tier": "tier1",
+          "primary_type": "Editorial"
+        },
+        {
+          "pmid": "42813716",
+          "title": "Advancing Hemodynamic Understanding in High-Risk PCI: A Critical Appraisal of the CHIP-BCIS3 Hemodynamic Substudy.",
+          "journal": "Journal of the American College of Cardiology",
+          "pub_date": "2026-09-29",
+          "pub_types": [
+            "Editorial"
+          ],
+          "first_author": "Burkhoff D",
+          "doi": "10.1016/j.jacc.2026.08.010",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42813716/",
+          "score": 54,
+          "tier": "tier1",
+          "primary_type": "Editorial"
+        },
+        {
+          "pmid": "42813715",
+          "title": "Beyond Information Asymmetry in Medicine: The Changing Nature of Medical Authority and Expertise.",
+          "journal": "Journal of the American College of Cardiology",
+          "pub_date": "2026-09-29",
+          "pub_types": [
+            "Editorial"
+          ],
+          "first_author": "Krumholz H",
+          "doi": "10.1016/j.jacc.2026.08.018",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42813715/",
+          "score": 54,
+          "tier": "tier1",
+          "primary_type": "Editorial"
         },
         {
           "pmid": "42804569",
@@ -311,7 +544,7 @@
           "first_author": "Al-Khatib S",
           "doi": "10.1161/CIRCULATIONAHA.126.082070",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42804569/",
-          "score": 56,
+          "score": 54,
           "tier": "tier1",
           "primary_type": "Editorial"
         },
@@ -326,7 +559,67 @@
           "first_author": "Čiháková D",
           "doi": "10.1161/CIRCULATIONAHA.126.079961",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42804562/",
-          "score": 56,
+          "score": 54,
+          "tier": "tier1",
+          "primary_type": "Editorial"
+        },
+        {
+          "pmid": "42644785",
+          "title": "20 Signals, 1 Cycle: What We Did-and Didn't-Learn About Cardiovascular Disease Fellowship Recruitment.",
+          "journal": "Journal of the American College of Cardiology",
+          "pub_date": "2026-09-29",
+          "pub_types": [
+            "Editorial"
+          ],
+          "first_author": "Berlacher K",
+          "doi": "10.1016/j.jacc.2026.07.032",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42644785/",
+          "score": 54,
+          "tier": "tier1",
+          "primary_type": "Editorial"
+        },
+        {
+          "pmid": "42554528",
+          "title": "Pulsatility, Protection, and the Price of Twelve Rounds.",
+          "journal": "Journal of the American College of Cardiology",
+          "pub_date": "2026-09-29",
+          "pub_types": [
+            "Editorial"
+          ],
+          "first_author": "Ali Z",
+          "doi": "10.1016/j.jacc.2026.07.002",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42554528/",
+          "score": 54,
+          "tier": "tier1",
+          "primary_type": "Editorial"
+        },
+        {
+          "pmid": "42421278",
+          "title": "Cardiovascular Health Equity: Time for a New Era of Science, Sociology, and Interventions: Joint Editorial on Behalf of the American College of Cardiology, the American Heart Association, the European Society of Cardiology, and the World Heart Federation.",
+          "journal": "Journal of the American College of Cardiology",
+          "pub_date": "2026-09-29",
+          "pub_types": [
+            "Editorial"
+          ],
+          "first_author": "Itchhaporia D",
+          "doi": "10.1016/j.jacc.2026.02.4871",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42421278/",
+          "score": 54,
+          "tier": "tier1",
+          "primary_type": "Editorial"
+        },
+        {
+          "pmid": "42126360",
+          "title": "A Window Closed, A World Opened: Leadership, Legacy, and the Future of Cardiovascular Care.",
+          "journal": "Journal of the American College of Cardiology",
+          "pub_date": "2026-09-29",
+          "pub_types": [
+            "Editorial"
+          ],
+          "first_author": "Mehran R",
+          "doi": "10.1016/j.jacc.2026.04.029",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42126360/",
+          "score": 54,
           "tier": "tier1",
           "primary_type": "Editorial"
         },
@@ -343,7 +636,7 @@
           "first_author": "Sliwa K",
           "doi": "10.1016/S0140-6736(26)01657-0",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42669305/",
-          "score": 52,
+          "score": 50,
           "tier": "tier1",
           "primary_type": "Multicenter Study"
         },
@@ -358,7 +651,7 @@
           "first_author": "Lim P",
           "doi": "10.1016/S0140-6736(26)01667-3",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42785327/",
-          "score": 51,
+          "score": 49,
           "tier": "tier1",
           "primary_type": "Letter"
         },
@@ -373,7 +666,7 @@
           "first_author": "Lee J",
           "doi": "10.1016/S0140-6736(26)01752-6",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42785326/",
-          "score": 51,
+          "score": 49,
           "tier": "tier1",
           "primary_type": "Letter"
         },
@@ -388,7 +681,7 @@
           "first_author": "Chang C",
           "doi": "10.1016/S0140-6736(26)01668-5",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42785325/",
-          "score": 51,
+          "score": 49,
           "tier": "tier1",
           "primary_type": "Letter"
         },
@@ -403,7 +696,7 @@
           "first_author": "Shun-Shin M",
           "doi": "10.1016/S0140-6736(26)01712-5",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42673981/",
-          "score": 51,
+          "score": 49,
           "tier": "tier1",
           "primary_type": "Journal Article"
         },
@@ -418,9 +711,125 @@
           "first_author": "Gaye B",
           "doi": "10.1016/S0140-6736(26)01754-X",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42669303/",
-          "score": 51,
+          "score": 49,
           "tier": "tier1",
           "primary_type": "Journal Article"
+        },
+        {
+          "pmid": "42813560",
+          "title": "Lower Cognitive Function in People Aged 60 to 69 Years Is Associated With Future Stroke.",
+          "journal": "Journal of the American Heart Association",
+          "pub_date": "2026-09-30",
+          "pub_types": [
+            "Journal Article"
+          ],
+          "first_author": "Askemyr A",
+          "doi": "10.1161/JAHA.125.048423",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42813560/",
+          "score": 43,
+          "tier": "tier2",
+          "primary_type": "Journal Article"
+        },
+        {
+          "pmid": "42670961",
+          "title": "Atorvastatin, Cardiovascular Events, and Disability-free Survival in Older Adults.",
+          "journal": "The New England journal of medicine",
+          "pub_date": "2026-10-01",
+          "pub_types": [
+            "Journal Article",
+            "Randomized Controlled Trial",
+            "Multicenter Study"
+          ],
+          "first_author": "Zoungas S",
+          "doi": "10.1056/NEJMoa2607314",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42670961/",
+          "score": 43,
+          "tier": "diger",
+          "primary_type": "Randomized Controlled Trial"
+        },
+        {
+          "pmid": "42219049",
+          "title": "A pragmatic randomized trial to evaluate the vaccine effectiveness of bivalent RSV prefusion F vaccine for preventing RSV hospitalizations in adults (DAN-RSV): Trial design update.",
+          "journal": "American heart journal",
+          "pub_date": "2026-10-01",
+          "pub_types": [
+            "Journal Article",
+            "Multicenter Study",
+            "Pragmatic Clinical Trial",
+            "Randomized Controlled Trial"
+          ],
+          "first_author": "Lassen M",
+          "doi": "10.1016/j.ahj.2026.107497",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42219049/",
+          "score": 43,
+          "tier": "diger",
+          "primary_type": "Randomized Controlled Trial"
+        },
+        {
+          "pmid": "42203165",
+          "title": "Relationship between baseline patient-reported health status and patient-centered outcomes after transcatheter aortic valve replacement.",
+          "journal": "American heart journal",
+          "pub_date": "2026-10-01",
+          "pub_types": [
+            "Journal Article",
+            "Multicenter Study",
+            "Randomized Controlled Trial"
+          ],
+          "first_author": "Tomii D",
+          "doi": "10.1016/j.ahj.2026.107495",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42203165/",
+          "score": 43,
+          "tier": "diger",
+          "primary_type": "Randomized Controlled Trial"
+        },
+        {
+          "pmid": "42203164",
+          "title": "Design of VICTORION-2 Prevent: A randomized double-blind, placebo-controlled trial, assessing the impact of inclisiran on major adverse cardiovascular events in patients with established cardiovascular disease.",
+          "journal": "American heart journal",
+          "pub_date": "2026-10-01",
+          "pub_types": [
+            "Journal Article",
+            "Randomized Controlled Trial"
+          ],
+          "first_author": "Steg P",
+          "doi": "10.1016/j.ahj.2026.107493",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42203164/",
+          "score": 43,
+          "tier": "diger",
+          "primary_type": "Randomized Controlled Trial"
+        },
+        {
+          "pmid": "42167711",
+          "title": "Direct His/LBB pacing as an alternative to biventricular pacing in patients with HFrEF and a typical LBBB: Design and rationale for the His-Alternative II trial.",
+          "journal": "American heart journal",
+          "pub_date": "2026-10-01",
+          "pub_types": [
+            "Journal Article",
+            "Multicenter Study",
+            "Randomized Controlled Trial"
+          ],
+          "first_author": "Risum N",
+          "doi": "10.1016/j.ahj.2026.107491",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42167711/",
+          "score": 43,
+          "tier": "diger",
+          "primary_type": "Randomized Controlled Trial"
+        },
+        {
+          "pmid": "42107552",
+          "title": "High-intensity interval training combined with moderate-intensity continuous training in post-PCI acute myocardial infarction patients: A randomized controlled trial.",
+          "journal": "American heart journal",
+          "pub_date": "2026-10-01",
+          "pub_types": [
+            "Journal Article",
+            "Randomized Controlled Trial"
+          ],
+          "first_author": "Wang W",
+          "doi": "10.1016/j.ahj.2026.107472",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42107552/",
+          "score": 43,
+          "tier": "diger",
+          "primary_type": "Randomized Controlled Trial"
         },
         {
           "pmid": "42808454",
@@ -433,7 +842,7 @@
           "first_author": "Li C",
           "doi": "10.1161/JAHA.126.048813",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42808454/",
-          "score": 43,
+          "score": 41,
           "tier": "tier2",
           "primary_type": "Journal Article"
         },
@@ -448,7 +857,7 @@
           "first_author": "Wu C",
           "doi": "10.1161/JAHA.126.050723",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42808453/",
-          "score": 43,
+          "score": 41,
           "tier": "tier2",
           "primary_type": "Journal Article"
         },
@@ -463,7 +872,7 @@
           "first_author": "Chen Z",
           "doi": "10.1161/JAHA.125.049578",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42808452/",
-          "score": 43,
+          "score": 41,
           "tier": "tier2",
           "primary_type": "Journal Article"
         },
@@ -478,7 +887,7 @@
           "first_author": "Apelland T",
           "doi": "10.1161/JAHA.126.050198",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42808447/",
-          "score": 43,
+          "score": 41,
           "tier": "tier2",
           "primary_type": "Journal Article"
         },
@@ -493,7 +902,7 @@
           "first_author": "Wu Y",
           "doi": "10.1161/JAHA.126.049319",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42808443/",
-          "score": 43,
+          "score": 41,
           "tier": "tier2",
           "primary_type": "Journal Article"
         },
@@ -508,7 +917,7 @@
           "first_author": "Rammos C",
           "doi": "10.1161/JAHA.125.046944",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42808442/",
-          "score": 43,
+          "score": 41,
           "tier": "tier2",
           "primary_type": "Journal Article"
         },
@@ -523,7 +932,7 @@
           "first_author": "Pei Y",
           "doi": "10.1161/JAHA.126.051562",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42808441/",
-          "score": 43,
+          "score": 41,
           "tier": "tier2",
           "primary_type": "Journal Article"
         },
@@ -538,7 +947,7 @@
           "first_author": "Giacobbe F",
           "doi": "10.1161/JAHA.125.045455",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42808440/",
-          "score": 43,
+          "score": 41,
           "tier": "tier2",
           "primary_type": "Journal Article"
         },
@@ -553,7 +962,7 @@
           "first_author": "Chavez J",
           "doi": "10.1161/JAHA.125.048519",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42808439/",
-          "score": 43,
+          "score": 41,
           "tier": "tier2",
           "primary_type": "Journal Article"
         },
@@ -568,7 +977,7 @@
           "first_author": "Sural S",
           "doi": "10.1161/JAHA.126.051162",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42808438/",
-          "score": 43,
+          "score": 41,
           "tier": "tier2",
           "primary_type": "Journal Article"
         },
@@ -583,7 +992,7 @@
           "first_author": "Abdallah S",
           "doi": "10.1161/JAHA.125.048285",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42808437/",
-          "score": 43,
+          "score": 41,
           "tier": "tier2",
           "primary_type": "Journal Article"
         },
@@ -598,7 +1007,7 @@
           "first_author": "Lei H",
           "doi": "10.1161/JAHA.126.051823",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42808436/",
-          "score": 43,
+          "score": 41,
           "tier": "tier2",
           "primary_type": "Journal Article"
         },
@@ -613,7 +1022,7 @@
           "first_author": "Liu A",
           "doi": "10.1161/JAHA.126.050850",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42808435/",
-          "score": 43,
+          "score": 41,
           "tier": "tier2",
           "primary_type": "Journal Article"
         },
@@ -628,7 +1037,7 @@
           "first_author": "Sá M",
           "doi": "10.1161/JAHA.126.054322",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42808433/",
-          "score": 41,
+          "score": 39,
           "tier": "tier2",
           "primary_type": "Editorial"
         },
@@ -643,9 +1052,25 @@
           "first_author": "Bolaji O",
           "doi": "10.1161/JAHA.126.053598",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42808432/",
-          "score": 41,
+          "score": 39,
           "tier": "tier2",
           "primary_type": "Editorial"
+        },
+        {
+          "pmid": "42150734",
+          "title": "Direct oral anticoagulant monotherapy vs combination therapy with antiplatelets in chronic coronary syndrome patients with prior percutaneous coronary intervention requiring anticoagulation: A meta-analysis.",
+          "journal": "American heart journal",
+          "pub_date": "2026-10-01",
+          "pub_types": [
+            "Meta-Analysis",
+            "Journal Article"
+          ],
+          "first_author": "Chi K",
+          "doi": "10.1016/j.ahj.2026.107492",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42150734/",
+          "score": 37,
+          "tier": "diger",
+          "primary_type": "Meta-Analysis"
         },
         {
           "pmid": "42786637",
@@ -659,7 +1084,7 @@
           "first_author": "Kristiansen M",
           "doi": "10.1161/JAHA.126.050497",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42786637/",
-          "score": 37,
+          "score": 35,
           "tier": "tier2",
           "primary_type": "Review"
         },
@@ -675,7 +1100,7 @@
           "first_author": "De Sousa I",
           "doi": "10.1161/JAHA.126.049298",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42786611/",
-          "score": 37,
+          "score": 35,
           "tier": "tier2",
           "primary_type": "Review"
         },
@@ -691,7 +1116,7 @@
           "first_author": "Mygind N",
           "doi": "10.1161/JAHA.126.050650",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42786602/",
-          "score": 37,
+          "score": 35,
           "tier": "tier2",
           "primary_type": "Review"
         },
@@ -706,7 +1131,7 @@
           "first_author": "Shi Y",
           "doi": "10.1161/JAHA.126.051048",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42786666/",
-          "score": 32,
+          "score": 30,
           "tier": "tier2",
           "primary_type": "Journal Article"
         },
@@ -721,7 +1146,7 @@
           "first_author": "Lane J",
           "doi": "10.1161/JAHA.126.049493",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42786661/",
-          "score": 32,
+          "score": 30,
           "tier": "tier2",
           "primary_type": "Journal Article"
         },
@@ -736,7 +1161,7 @@
           "first_author": "Zhou P",
           "doi": "10.1161/JAHA.126.049783",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42786658/",
-          "score": 32,
+          "score": 30,
           "tier": "tier2",
           "primary_type": "Journal Article"
         },
@@ -751,7 +1176,7 @@
           "first_author": "Song Q",
           "doi": "10.1161/JAHA.125.049033",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42786657/",
-          "score": 32,
+          "score": 30,
           "tier": "tier2",
           "primary_type": "Journal Article"
         },
@@ -766,7 +1191,7 @@
           "first_author": "Katano S",
           "doi": "10.1161/JAHA.126.051493",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42786652/",
-          "score": 32,
+          "score": 30,
           "tier": "tier2",
           "primary_type": "Journal Article"
         },
@@ -781,7 +1206,7 @@
           "first_author": "Murphy S",
           "doi": "10.1161/JAHA.125.050146",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42786649/",
-          "score": 32,
+          "score": 30,
           "tier": "tier2",
           "primary_type": "Journal Article"
         },
@@ -796,7 +1221,7 @@
           "first_author": "Cascio Rizzo A",
           "doi": "10.1161/JAHA.126.050581",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42786648/",
-          "score": 32,
+          "score": 30,
           "tier": "tier2",
           "primary_type": "Journal Article"
         },
@@ -811,7 +1236,7 @@
           "first_author": "Buck M",
           "doi": "10.1161/JAHA.126.053158",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42786647/",
-          "score": 32,
+          "score": 30,
           "tier": "tier2",
           "primary_type": "Journal Article"
         },
@@ -826,7 +1251,7 @@
           "first_author": "Tang L",
           "doi": "10.1161/JAHA.125.047767",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42786635/",
-          "score": 32,
+          "score": 30,
           "tier": "tier2",
           "primary_type": "Journal Article"
         },
@@ -841,7 +1266,7 @@
           "first_author": "Ding Y",
           "doi": "10.1161/JAHA.126.049158",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42786634/",
-          "score": 32,
+          "score": 30,
           "tier": "tier2",
           "primary_type": "Journal Article"
         },
@@ -856,7 +1281,7 @@
           "first_author": "Liu Q",
           "doi": "10.1161/JAHA.126.049725",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42786632/",
-          "score": 32,
+          "score": 30,
           "tier": "tier2",
           "primary_type": "Journal Article"
         },
@@ -872,7 +1297,7 @@
           "first_author": "",
           "doi": "10.1161/JAHA.125.045439",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42786631/",
-          "score": 32,
+          "score": 30,
           "tier": "tier2",
           "primary_type": "Journal Article"
         },
@@ -887,7 +1312,7 @@
           "first_author": "Kim K",
           "doi": "10.1161/JAHA.126.049194",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42786629/",
-          "score": 32,
+          "score": 30,
           "tier": "tier2",
           "primary_type": "Journal Article"
         },
@@ -902,7 +1327,7 @@
           "first_author": "Osawa I",
           "doi": "10.1161/JAHA.126.050448",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42786624/",
-          "score": 32,
+          "score": 30,
           "tier": "tier2",
           "primary_type": "Journal Article"
         },
@@ -917,7 +1342,7 @@
           "first_author": "Kim B",
           "doi": "10.1161/JAHA.126.050940",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42786623/",
-          "score": 32,
+          "score": 30,
           "tier": "tier2",
           "primary_type": "Journal Article"
         },
@@ -932,7 +1357,7 @@
           "first_author": "Borrowman J",
           "doi": "10.1161/JAHA.126.049882",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42786622/",
-          "score": 32,
+          "score": 30,
           "tier": "tier2",
           "primary_type": "Journal Article"
         },
@@ -947,7 +1372,7 @@
           "first_author": "Fu Z",
           "doi": "10.1161/JAHA.126.050201",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42786621/",
-          "score": 32,
+          "score": 30,
           "tier": "tier2",
           "primary_type": "Journal Article"
         },
@@ -963,7 +1388,7 @@
           "first_author": "",
           "doi": "10.1161/JAHA.125.045419",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42786620/",
-          "score": 32,
+          "score": 30,
           "tier": "tier2",
           "primary_type": "Journal Article"
         },
@@ -978,7 +1403,7 @@
           "first_author": "Paing P",
           "doi": "10.1161/JAHA.125.048758",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42786619/",
-          "score": 32,
+          "score": 30,
           "tier": "tier2",
           "primary_type": "Journal Article"
         },
@@ -993,7 +1418,7 @@
           "first_author": "Taniguchi T",
           "doi": "10.1161/JAHA.126.050412",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42786617/",
-          "score": 32,
+          "score": 30,
           "tier": "tier2",
           "primary_type": "Journal Article"
         },
@@ -1008,7 +1433,7 @@
           "first_author": "Fregni F",
           "doi": "10.1161/JAHA.125.047114",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42786616/",
-          "score": 32,
+          "score": 30,
           "tier": "tier2",
           "primary_type": "Journal Article"
         },
@@ -1023,7 +1448,7 @@
           "first_author": "Lin C",
           "doi": "10.1161/JAHA.126.050964",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42786612/",
-          "score": 32,
+          "score": 30,
           "tier": "tier2",
           "primary_type": "Journal Article"
         },
@@ -1038,7 +1463,7 @@
           "first_author": "Zhang X",
           "doi": "10.1161/JAHA.126.049591",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42786607/",
-          "score": 32,
+          "score": 30,
           "tier": "tier2",
           "primary_type": "Journal Article"
         },
@@ -1053,7 +1478,7 @@
           "first_author": "Le D",
           "doi": "10.1161/JAHA.125.048864",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42786606/",
-          "score": 32,
+          "score": 30,
           "tier": "tier2",
           "primary_type": "Journal Article"
         },
@@ -1068,7 +1493,7 @@
           "first_author": "Inglis S",
           "doi": "10.1161/JAHA.125.047609",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42786601/",
-          "score": 32,
+          "score": 30,
           "tier": "tier2",
           "primary_type": "Journal Article"
         },
@@ -1083,7 +1508,7 @@
           "first_author": "Hasanpour-Sergherlou Z",
           "doi": "10.1161/JAHA.125.049895",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42786598/",
-          "score": 32,
+          "score": 30,
           "tier": "tier2",
           "primary_type": "Journal Article"
         },
@@ -1098,7 +1523,7 @@
           "first_author": "Bortnick A",
           "doi": "10.1161/JAHA.125.042370",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42786596/",
-          "score": 32,
+          "score": 30,
           "tier": "tier2",
           "primary_type": "Journal Article"
         },
@@ -1113,7 +1538,7 @@
           "first_author": "Allegro V",
           "doi": "10.1161/JAHA.125.043647",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42786594/",
-          "score": 32,
+          "score": 30,
           "tier": "tier2",
           "primary_type": "Journal Article"
         },
@@ -1129,7 +1554,7 @@
           "first_author": "",
           "doi": "10.1161/JAHA.125.045408",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42786585/",
-          "score": 32,
+          "score": 30,
           "tier": "tier2",
           "primary_type": "Journal Article"
         },
@@ -1144,7 +1569,7 @@
           "first_author": "Burande A",
           "doi": "10.1161/JAHA.125.046951",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42786584/",
-          "score": 32,
+          "score": 30,
           "tier": "tier2",
           "primary_type": "Journal Article"
         },
@@ -1159,7 +1584,7 @@
           "first_author": "Tomaselli M",
           "doi": "10.1161/JAHA.126.049040",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42786577/",
-          "score": 32,
+          "score": 30,
           "tier": "tier2",
           "primary_type": "Journal Article"
         },
@@ -1174,7 +1599,7 @@
           "first_author": "Chuang C",
           "doi": "10.1161/JAHA.126.049229",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42786575/",
-          "score": 32,
+          "score": 30,
           "tier": "tier2",
           "primary_type": "Journal Article"
         },
@@ -1189,7 +1614,7 @@
           "first_author": "Kaze A",
           "doi": "10.1161/JAHA.125.048360",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42786573/",
-          "score": 32,
+          "score": 30,
           "tier": "tier2",
           "primary_type": "Journal Article"
         },
@@ -1204,7 +1629,7 @@
           "first_author": "Adebowale O",
           "doi": "10.1161/JAHA.126.054211",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42786627/",
-          "score": 30,
+          "score": 28,
           "tier": "tier2",
           "primary_type": "Editorial"
         },
@@ -1220,7 +1645,7 @@
           "first_author": "Tripathi A",
           "doi": "10.1161/JAHA.126.053346",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42786625/",
-          "score": 30,
+          "score": 28,
           "tier": "tier2",
           "primary_type": "Editorial"
         },
@@ -1235,7 +1660,7 @@
           "first_author": "Prasad S",
           "doi": "10.1161/JAHA.126.053673",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42786609/",
-          "score": 30,
+          "score": 28,
           "tier": "tier2",
           "primary_type": "Editorial"
         },
@@ -1253,9 +1678,73 @@
           "first_author": "Kim D",
           "doi": "10.1056/NEJMoa2607978",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42663303/",
-          "score": 30,
+          "score": 28,
           "tier": "diger",
           "primary_type": "Randomized Controlled Trial"
+        },
+        {
+          "pmid": "41896619",
+          "title": "Cardiovascular stent technologies for coronary and valvular heart disease: the potential of 3D printing for stent fabrication.",
+          "journal": "Nature reviews. Cardiology",
+          "pub_date": "2026-10-01",
+          "pub_types": [
+            "Journal Article",
+            "Review"
+          ],
+          "first_author": "Ehterami A",
+          "doi": "10.1038/s41569-026-01275-x",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41896619/",
+          "score": 25,
+          "tier": "diger",
+          "primary_type": "Review"
+        },
+        {
+          "pmid": "41862749",
+          "title": "Inflammatory signalling in diabetic cardiomyopathy: molecular mechanisms and potential therapeutic strategies.",
+          "journal": "Nature reviews. Cardiology",
+          "pub_date": "2026-10-01",
+          "pub_types": [
+            "Journal Article",
+            "Review"
+          ],
+          "first_author": "De Blasio M",
+          "doi": "10.1038/s41569-026-01274-y",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41862749/",
+          "score": 25,
+          "tier": "diger",
+          "primary_type": "Review"
+        },
+        {
+          "pmid": "41820525",
+          "title": "Cardiac lymphatic dysfunction and repair in cardiovascular disease.",
+          "journal": "Nature reviews. Cardiology",
+          "pub_date": "2026-10-01",
+          "pub_types": [
+            "Journal Article",
+            "Review"
+          ],
+          "first_author": "Brakenhielm E",
+          "doi": "10.1038/s41569-026-01271-1",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41820525/",
+          "score": 25,
+          "tier": "diger",
+          "primary_type": "Review"
+        },
+        {
+          "pmid": "41807758",
+          "title": "Antiphospholipid antibodies and cardiovascular thrombosis.",
+          "journal": "Nature reviews. Cardiology",
+          "pub_date": "2026-10-01",
+          "pub_types": [
+            "Journal Article",
+            "Review"
+          ],
+          "first_author": "Rashedi S",
+          "doi": "10.1038/s41569-026-01269-9",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41807758/",
+          "score": 25,
+          "tier": "diger",
+          "primary_type": "Review"
         },
         {
           "pmid": "41672763",
@@ -1270,7 +1759,7 @@
           "first_author": "Tan E",
           "doi": "10.1136/heartjnl-2025-326305",
           "url": "https://pubmed.ncbi.nlm.nih.gov/41672763/",
-          "score": 24,
+          "score": 22,
           "tier": "diger",
           "primary_type": "Meta-Analysis"
         },
@@ -1286,9 +1775,998 @@
           "first_author": "Ieki H",
           "doi": "10.1136/heartjnl-2026-328835",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42810857/",
-          "score": 23,
+          "score": 21,
           "tier": "diger",
           "primary_type": "Review"
+        },
+        {
+          "pmid": "42314850",
+          "title": "Potential survival benefit of adjunctive catheter-based embolectomy in high-risk pulmonary embolism patients on veno-arterial extracorporeal membrane oxygenation: A multicenter retrospective study.",
+          "journal": "International journal of cardiology",
+          "pub_date": "2026-10-01",
+          "pub_types": [
+            "Journal Article",
+            "Multicenter Study"
+          ],
+          "first_author": "Hou W",
+          "doi": "10.1016/j.ijcard.2026.134635",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42314850/",
+          "score": 21,
+          "tier": "diger",
+          "primary_type": "Multicenter Study"
+        },
+        {
+          "pmid": "42314846",
+          "title": "Effect of glycemic status on the natural history of left atrial structure and function in adults with metabolic syndrome and obesity.",
+          "journal": "International journal of cardiology",
+          "pub_date": "2026-10-01",
+          "pub_types": [
+            "Journal Article",
+            "Multicenter Study",
+            "Observational Study"
+          ],
+          "first_author": "Alonso Gómez A",
+          "doi": "10.1016/j.ijcard.2026.134624",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42314846/",
+          "score": 21,
+          "tier": "diger",
+          "primary_type": "Multicenter Study"
+        },
+        {
+          "pmid": "42309488",
+          "title": "Patient profiles and outcomes of chronic total occlusion percutaneous revascularisation in middle- and high-income regions a cross-sectional study from the European Registry of Chronic Total Occlusions (ERCTO).",
+          "journal": "International journal of cardiology",
+          "pub_date": "2026-10-01",
+          "pub_types": [
+            "Journal Article",
+            "Multicenter Study",
+            "Observational Study"
+          ],
+          "first_author": "Vadalà G",
+          "doi": "10.1016/j.ijcard.2026.134625",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42309488/",
+          "score": 21,
+          "tier": "diger",
+          "primary_type": "Multicenter Study"
+        },
+        {
+          "pmid": "42288220",
+          "title": "Drug-coated balloon versus drug-eluting stent for isolated ostial side-branch bifurcation (Medina 0.0.1) lesions.",
+          "journal": "International journal of cardiology",
+          "pub_date": "2026-10-01",
+          "pub_types": [
+            "Comparative Study",
+            "Journal Article",
+            "Multicenter Study",
+            "Observational Study"
+          ],
+          "first_author": "Kang D",
+          "doi": "10.1016/j.ijcard.2026.134621",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42288220/",
+          "score": 21,
+          "tier": "diger",
+          "primary_type": "Multicenter Study"
+        },
+        {
+          "pmid": "42251950",
+          "title": "In-hospital outcomes of valve-in-valve vs. native valve transcatheter aortic valve implantation in Brazil: A propensity-matched analysis.",
+          "journal": "International journal of cardiology",
+          "pub_date": "2026-10-01",
+          "pub_types": [
+            "Comparative Study",
+            "Journal Article",
+            "Multicenter Study",
+            "Observational Study"
+          ],
+          "first_author": "Calomeni P",
+          "doi": "10.1016/j.ijcard.2026.134600",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42251950/",
+          "score": 21,
+          "tier": "diger",
+          "primary_type": "Multicenter Study"
+        },
+        {
+          "pmid": "42242410",
+          "title": "Cardio-kidney-metabolic overlap in patients with severe heart failure: Data from the HELP-HF registry.",
+          "journal": "American heart journal",
+          "pub_date": "2026-10-01",
+          "pub_types": [
+            "Journal Article",
+            "Multicenter Study"
+          ],
+          "first_author": "Villaschi A",
+          "doi": "10.1016/j.ahj.2026.107508",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42242410/",
+          "score": 21,
+          "tier": "diger",
+          "primary_type": "Multicenter Study"
+        },
+        {
+          "pmid": "42242385",
+          "title": "Use of cangrelor in patients with reduced renal function: Post-hoc analysis from the ARCANGELO study.",
+          "journal": "International journal of cardiology",
+          "pub_date": "2026-10-01",
+          "pub_types": [
+            "Journal Article",
+            "Multicenter Study",
+            "Observational Study"
+          ],
+          "first_author": "Capranzano P",
+          "doi": "10.1016/j.ijcard.2026.134601",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42242385/",
+          "score": 21,
+          "tier": "diger",
+          "primary_type": "Multicenter Study"
+        },
+        {
+          "pmid": "42242383",
+          "title": "Diverging trajectories of cardiorenal protection: From early benefit to late attenuation with multifactorial target achievement across cardiovascular kidney-metabolic syndrome stages.",
+          "journal": "International journal of cardiology",
+          "pub_date": "2026-10-01",
+          "pub_types": [
+            "Journal Article",
+            "Multicenter Study",
+            "Observational Study"
+          ],
+          "first_author": "Cai L",
+          "doi": "10.1016/j.ijcard.2026.134598",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42242383/",
+          "score": 21,
+          "tier": "diger",
+          "primary_type": "Multicenter Study"
+        },
+        {
+          "pmid": "42208925",
+          "title": "Potentially futile outcome after uncomplicated TAVI: Insights from the TRITAVI registry.",
+          "journal": "American heart journal",
+          "pub_date": "2026-10-01",
+          "pub_types": [
+            "Journal Article",
+            "Multicenter Study"
+          ],
+          "first_author": "D'Ascenzo F",
+          "doi": "10.1016/j.ahj.2026.107488",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42208925/",
+          "score": 21,
+          "tier": "diger",
+          "primary_type": "Multicenter Study"
+        },
+        {
+          "pmid": "42208924",
+          "title": "Progression of bicuspid-related aortopathy in patients undergoing transcatheter aortic valve implantation: Rationale and design of the international, multicenter PROSPERO-TAVI registry.",
+          "journal": "American heart journal",
+          "pub_date": "2026-10-01",
+          "pub_types": [
+            "Journal Article",
+            "Multicenter Study",
+            "Observational Study"
+          ],
+          "first_author": "Costa G",
+          "doi": "10.1016/j.ahj.2026.107494",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42208924/",
+          "score": 21,
+          "tier": "diger",
+          "primary_type": "Multicenter Study"
+        },
+        {
+          "pmid": "42167412",
+          "title": "Female sex is independently associated with poor health-related quality of life in patients with coronary heart disease across 14 countries: the INTERASPIRE study.",
+          "journal": "International journal of cardiology",
+          "pub_date": "2026-10-01",
+          "pub_types": [
+            "Journal Article",
+            "Multicenter Study",
+            "Observational Study"
+          ],
+          "first_author": "Ski C",
+          "doi": "10.1016/j.ijcard.2026.134563",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42167412/",
+          "score": 21,
+          "tier": "diger",
+          "primary_type": "Multicenter Study"
+        },
+        {
+          "pmid": "42817850",
+          "title": "What's New in Heart Failure? September 2026.",
+          "journal": "European journal of heart failure",
+          "pub_date": "2026-10-01",
+          "pub_types": [
+            "Journal Article"
+          ],
+          "first_author": "Laborante R",
+          "doi": "10.1093/ejhf/xuag302",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42817850/",
+          "score": 20,
+          "tier": "diger",
+          "primary_type": "Journal Article"
+        },
+        {
+          "pmid": "42817848",
+          "title": "Pharmacological treatment strategies to prevent heart failure across the cardiovascular-kidney-metabolic spectrum: an EJHF Expert Consensus Statement.",
+          "journal": "European journal of heart failure",
+          "pub_date": "2026-10-01",
+          "pub_types": [
+            "Journal Article"
+          ],
+          "first_author": "Inciardi R",
+          "doi": "10.1093/ejhf/xuag301",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42817848/",
+          "score": 20,
+          "tier": "diger",
+          "primary_type": "Journal Article"
+        },
+        {
+          "pmid": "42817174",
+          "title": "Fewer Ischaemic Events, More Bleeding After Myocardial Infarction: Interpreting Two Decades of Change.",
+          "journal": "European journal of preventive cardiology",
+          "pub_date": "2026-10-01",
+          "pub_types": [
+            "Journal Article"
+          ],
+          "first_author": "Bosch J",
+          "doi": "10.1093/eurjpc/zwag513",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42817174/",
+          "score": 20,
+          "tier": "diger",
+          "primary_type": "Journal Article"
+        },
+        {
+          "pmid": "42817173",
+          "title": "Chronic Hypertension and Cardiovascular Disease After Preeclampsia: A Danish Nationwide Register-Based Cohort Study Identifying Women at High Risk.",
+          "journal": "European journal of preventive cardiology",
+          "pub_date": "2026-10-01",
+          "pub_types": [
+            "Journal Article"
+          ],
+          "first_author": "Nielsen H",
+          "doi": "10.1093/eurjpc/zwag507",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42817173/",
+          "score": 20,
+          "tier": "diger",
+          "primary_type": "Journal Article"
+        },
+        {
+          "pmid": "42581172",
+          "title": "Uncovering the role of chromatin organization and dynamics in heart disease.",
+          "journal": "Nature reviews. Cardiology",
+          "pub_date": "2026-10-01",
+          "pub_types": [
+            "Journal Article"
+          ],
+          "first_author": "Huynh K",
+          "doi": "10.1038/s41569-026-01338-z",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42581172/",
+          "score": 20,
+          "tier": "diger",
+          "primary_type": "Journal Article"
+        },
+        {
+          "pmid": "42547850",
+          "title": "Post-mitotic cardiomyocyte senescence redefines cardiac ageing.",
+          "journal": "Nature reviews. Cardiology",
+          "pub_date": "2026-10-01",
+          "pub_types": [
+            "Journal Article"
+          ],
+          "first_author": "Simon I",
+          "doi": "10.1038/s41569-026-01332-5",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42547850/",
+          "score": 20,
+          "tier": "diger",
+          "primary_type": "Journal Article"
+        },
+        {
+          "pmid": "42521774",
+          "title": "Mitochondrial uncoupling therapy reduces established atherosclerosis in mice.",
+          "journal": "Nature reviews. Cardiology",
+          "pub_date": "2026-10-01",
+          "pub_types": [
+            "Journal Article"
+          ],
+          "first_author": "Fernández-Ruiz I",
+          "doi": "10.1038/s41569-026-01330-7",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42521774/",
+          "score": 20,
+          "tier": "diger",
+          "primary_type": "Journal Article"
+        },
+        {
+          "pmid": "42463539",
+          "title": "YAP at the heart of cardiac regeneration.",
+          "journal": "Nature reviews. Cardiology",
+          "pub_date": "2026-10-01",
+          "pub_types": [
+            "Journal Article"
+          ],
+          "first_author": "Dar G",
+          "doi": "10.1038/s41569-026-01328-1",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42463539/",
+          "score": 20,
+          "tier": "diger",
+          "primary_type": "Journal Article"
+        },
+        {
+          "pmid": "42448953",
+          "title": "In the era of AI, omics and organoids, animal models are still needed in cardiovascular research.",
+          "journal": "Nature reviews. Cardiology",
+          "pub_date": "2026-10-01",
+          "pub_types": [
+            "Journal Article"
+          ],
+          "first_author": "Kleinbongard P",
+          "doi": "10.1038/s41569-026-01327-2",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42448953/",
+          "score": 20,
+          "tier": "diger",
+          "primary_type": "Journal Article"
+        },
+        {
+          "pmid": "42420545",
+          "title": "Sarcomere dysfunction as the molecular basis of hypertrophic cardiomyopathy.",
+          "journal": "Nature reviews. Cardiology",
+          "pub_date": "2026-10-01",
+          "pub_types": [
+            "Journal Article"
+          ],
+          "first_author": "Dababneh S",
+          "doi": "10.1038/s41569-026-01324-5",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42420545/",
+          "score": 20,
+          "tier": "diger",
+          "primary_type": "Journal Article"
+        },
+        {
+          "pmid": "42420544",
+          "title": "Transfer of a gain-of-function PCSK9 gene to induce atherosclerosis in mice.",
+          "journal": "Nature reviews. Cardiology",
+          "pub_date": "2026-10-01",
+          "pub_types": [
+            "Journal Article"
+          ],
+          "first_author": "Albarrán-Juárez J",
+          "doi": "10.1038/s41569-026-01326-3",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42420544/",
+          "score": 20,
+          "tier": "diger",
+          "primary_type": "Journal Article"
+        },
+        {
+          "pmid": "42331183",
+          "title": "Clinical and artificial intelligence assessed echocardiographic predictors of outcomes after acute myocardial infarction.",
+          "journal": "International journal of cardiology",
+          "pub_date": "2026-10-01",
+          "pub_types": [
+            "Journal Article"
+          ],
+          "first_author": "Lenselink C",
+          "doi": "10.1016/j.ijcard.2026.134638",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42331183/",
+          "score": 20,
+          "tier": "diger",
+          "primary_type": "Journal Article"
+        },
+        {
+          "pmid": "42314849",
+          "title": "Incidence of periprocedural myocardial injury and clinical outcomes after rotational atherectomy vs. intravascular lithotripsy.",
+          "journal": "International journal of cardiology",
+          "pub_date": "2026-10-01",
+          "pub_types": [
+            "Journal Article",
+            "Comparative Study"
+          ],
+          "first_author": "Emori H",
+          "doi": "10.1016/j.ijcard.2026.134630",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42314849/",
+          "score": 20,
+          "tier": "diger",
+          "primary_type": "Comparative Study"
+        },
+        {
+          "pmid": "42314848",
+          "title": "The impact of FBN1 variant types on pregnancy-related aortic dissection in women with Marfan syndrome.",
+          "journal": "International journal of cardiology",
+          "pub_date": "2026-10-01",
+          "pub_types": [
+            "Journal Article"
+          ],
+          "first_author": "Yokouchi-Konishi T",
+          "doi": "10.1016/j.ijcard.2026.134634",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42314848/",
+          "score": 20,
+          "tier": "diger",
+          "primary_type": "Journal Article"
+        },
+        {
+          "pmid": "42314845",
+          "title": "Safety of multiple grasping attempts during transcatheter mitral valve repair with the PASCAL system.",
+          "journal": "International journal of cardiology",
+          "pub_date": "2026-10-01",
+          "pub_types": [
+            "Journal Article"
+          ],
+          "first_author": "Jürgens F",
+          "doi": "10.1016/j.ijcard.2026.134636",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42314845/",
+          "score": 20,
+          "tier": "diger",
+          "primary_type": "Journal Article"
+        },
+        {
+          "pmid": "42309490",
+          "title": "Plaque characteristics and clinical outcomes of non-culprit long lesions in patients with acute myocardial infarction.",
+          "journal": "International journal of cardiology",
+          "pub_date": "2026-10-01",
+          "pub_types": [
+            "Journal Article"
+          ],
+          "first_author": "Cui L",
+          "doi": "10.1016/j.ijcard.2026.134627",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42309490/",
+          "score": 20,
+          "tier": "diger",
+          "primary_type": "Journal Article"
+        },
+        {
+          "pmid": "42309489",
+          "title": "Comparison between the fast and the traditional nitroglycerin head-up tilt test in paediatric population.",
+          "journal": "International journal of cardiology",
+          "pub_date": "2026-10-01",
+          "pub_types": [
+            "Journal Article",
+            "Comparative Study"
+          ],
+          "first_author": "Russo V",
+          "doi": "10.1016/j.ijcard.2026.134623",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42309489/",
+          "score": 20,
+          "tier": "diger",
+          "primary_type": "Comparative Study"
+        },
+        {
+          "pmid": "42309487",
+          "title": "Rate of incident polyneuropathy in patients with transthyretin amyloid cardiomyopathy.",
+          "journal": "International journal of cardiology",
+          "pub_date": "2026-10-01",
+          "pub_types": [
+            "Journal Article"
+          ],
+          "first_author": "Meems L",
+          "doi": "10.1016/j.ijcard.2026.134631",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42309487/",
+          "score": 20,
+          "tier": "diger",
+          "primary_type": "Journal Article"
+        },
+        {
+          "pmid": "42288219",
+          "title": "Echocardiographic correlates of acute kidney injury in cardiac intensive care unit patients.",
+          "journal": "International journal of cardiology",
+          "pub_date": "2026-10-01",
+          "pub_types": [
+            "Journal Article"
+          ],
+          "first_author": "Lipps K",
+          "doi": "10.1016/j.ijcard.2026.134613",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42288219/",
+          "score": 20,
+          "tier": "diger",
+          "primary_type": "Journal Article"
+        },
+        {
+          "pmid": "42276257",
+          "title": "Relationship between left atrial fibrosis and function in a selected cohort undergoing surgery for severe primary mitral regurgitation.",
+          "journal": "International journal of cardiology",
+          "pub_date": "2026-10-01",
+          "pub_types": [
+            "Journal Article"
+          ],
+          "first_author": "Maffeis C",
+          "doi": "10.1016/j.ijcard.2026.134614",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42276257/",
+          "score": 20,
+          "tier": "diger",
+          "primary_type": "Journal Article"
+        },
+        {
+          "pmid": "42276256",
+          "title": "Inhibition of late sodium current (INa) to prevent coronary MICROvascular dysfunction in patients presenting with ST-elevation myocardial infarction and multivessel disease: A phase IIb multicenter, randomized, controlled and open label study (INaMICRON).",
+          "journal": "International journal of cardiology",
+          "pub_date": "2026-10-01",
+          "pub_types": [
+            "Journal Article",
+            "Clinical Trial Protocol"
+          ],
+          "first_author": "Di Serafino L",
+          "doi": "10.1016/j.ijcard.2026.134620",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42276256/",
+          "score": 20,
+          "tier": "diger",
+          "primary_type": "Journal Article"
+        },
+        {
+          "pmid": "42276255",
+          "title": "Association between hepatic vein Doppler and echocardiographic diastolic indices with invasively measured right ventricular filling pressures in pediatric pulmonary arterial hypertension.",
+          "journal": "International journal of cardiology",
+          "pub_date": "2026-10-01",
+          "pub_types": [
+            "Journal Article"
+          ],
+          "first_author": "Palmert T",
+          "doi": "10.1016/j.ijcard.2026.134619",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42276255/",
+          "score": 20,
+          "tier": "diger",
+          "primary_type": "Journal Article"
+        },
+        {
+          "pmid": "42269879",
+          "title": "Stress-strain phenotyping, reverse remodelling and therapeutic responsiveness in HFrEF: Predictive value of end-systolic wall stress and global longitudinal strain.",
+          "journal": "International journal of cardiology",
+          "pub_date": "2026-10-01",
+          "pub_types": [
+            "Journal Article"
+          ],
+          "first_author": "Dini F",
+          "doi": "10.1016/j.ijcard.2026.134618",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42269879/",
+          "score": 20,
+          "tier": "diger",
+          "primary_type": "Journal Article"
+        },
+        {
+          "pmid": "42263952",
+          "title": "Clinical significance of incidental pericardial late gadolinium enhancement on cardiac magnetic resonance.",
+          "journal": "International journal of cardiology",
+          "pub_date": "2026-10-01",
+          "pub_types": [
+            "Journal Article"
+          ],
+          "first_author": "Lepre V",
+          "doi": "10.1016/j.ijcard.2026.134617",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42263952/",
+          "score": 20,
+          "tier": "diger",
+          "primary_type": "Journal Article"
+        },
+        {
+          "pmid": "42263950",
+          "title": "A scoping review on aging and cardiovascular diseases - Molecular mediators and artificial intelligence-based advanced diagnostic methods.",
+          "journal": "International journal of cardiology",
+          "pub_date": "2026-10-01",
+          "pub_types": [
+            "Journal Article",
+            "Scoping Review"
+          ],
+          "first_author": "Sudoso A",
+          "doi": "10.1016/j.ijcard.2026.134615",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42263950/",
+          "score": 20,
+          "tier": "diger",
+          "primary_type": "Journal Article"
+        },
+        {
+          "pmid": "42263949",
+          "title": "cAMP production secondary to A",
+          "journal": "International journal of cardiology",
+          "pub_date": "2026-10-01",
+          "pub_types": [
+            "Journal Article",
+            "Comparative Study"
+          ],
+          "first_author": "Deharo P",
+          "doi": "10.1016/j.ijcard.2026.134612",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42263949/",
+          "score": 20,
+          "tier": "diger",
+          "primary_type": "Comparative Study"
+        },
+        {
+          "pmid": "42263948",
+          "title": "High four-pillar guideline-directed medical therapy adoption in heart failure with reduced ejection fraction: A tertiary-centre registry from eastern India, 2019-2024.",
+          "journal": "International journal of cardiology",
+          "pub_date": "2026-10-01",
+          "pub_types": [
+            "Journal Article"
+          ],
+          "first_author": "Tripathi S",
+          "doi": "10.1016/j.ijcard.2026.134616",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42263948/",
+          "score": 20,
+          "tier": "diger",
+          "primary_type": "Journal Article"
+        },
+        {
+          "pmid": "42250671",
+          "title": "Clinical outcomes and impact of aortic valve replacement in concordant vs discordant high-gradient aortic stenosis.",
+          "journal": "American heart journal",
+          "pub_date": "2026-10-01",
+          "pub_types": [
+            "Journal Article"
+          ],
+          "first_author": "Sheashaa H",
+          "doi": "10.1016/j.ahj.2026.107507",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42250671/",
+          "score": 20,
+          "tier": "diger",
+          "primary_type": "Journal Article"
+        },
+        {
+          "pmid": "42242384",
+          "title": "Left atrial mechanical dispersion as a novel predictor biomarker of new-onset atrial arrhythmias in cardiac amyloidosis.",
+          "journal": "International journal of cardiology",
+          "pub_date": "2026-10-01",
+          "pub_types": [
+            "Journal Article"
+          ],
+          "first_author": "Adam R",
+          "doi": "10.1016/j.ijcard.2026.134602",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42242384/",
+          "score": 20,
+          "tier": "diger",
+          "primary_type": "Journal Article"
+        },
+        {
+          "pmid": "42219050",
+          "title": "Evaluation, treatment, and outcomes in patients with possible severe aortic stenosis.",
+          "journal": "American heart journal",
+          "pub_date": "2026-10-01",
+          "pub_types": [
+            "Journal Article"
+          ],
+          "first_author": "Gouda P",
+          "doi": "10.1016/j.ahj.2026.107498",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42219050/",
+          "score": 20,
+          "tier": "diger",
+          "primary_type": "Journal Article"
+        },
+        {
+          "pmid": "42208867",
+          "title": "Characteristics, readmission patterns and trends in hospitalisations for chronic coronary disease in Western Australia, 2005 to 2022.",
+          "journal": "International journal of cardiology",
+          "pub_date": "2026-10-01",
+          "pub_types": [
+            "Journal Article"
+          ],
+          "first_author": "Robinson K",
+          "doi": "10.1016/j.ijcard.2026.134589",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42208867/",
+          "score": 20,
+          "tier": "diger",
+          "primary_type": "Journal Article"
+        },
+        {
+          "pmid": "42208866",
+          "title": "Sex differences in cardiomyopathies: Presentation, diagnostic evaluation, and outcomes in a prospective cohort.",
+          "journal": "International journal of cardiology",
+          "pub_date": "2026-10-01",
+          "pub_types": [
+            "Journal Article"
+          ],
+          "first_author": "Nordberg Backelin C",
+          "doi": "10.1016/j.ijcard.2026.134582",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42208866/",
+          "score": 20,
+          "tier": "diger",
+          "primary_type": "Journal Article"
+        },
+        {
+          "pmid": "42203004",
+          "title": "Association of Baseline SSRI use with post-STEMI outcomes in patients with depression.",
+          "journal": "International journal of cardiology",
+          "pub_date": "2026-10-01",
+          "pub_types": [
+            "Journal Article"
+          ],
+          "first_author": "Gopal A",
+          "doi": "10.1016/j.ijcard.2026.134585",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42203004/",
+          "score": 20,
+          "tier": "diger",
+          "primary_type": "Journal Article"
+        },
+        {
+          "pmid": "42162604",
+          "title": "Predictors of ischemic stroke and major bleeding among patients with atrial fibrillation in clinical practice.",
+          "journal": "American heart journal",
+          "pub_date": "2026-10-01",
+          "pub_types": [
+            "Journal Article"
+          ],
+          "first_author": "Gouda P",
+          "doi": "10.1016/j.ahj.2026.107490",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42162604/",
+          "score": 20,
+          "tier": "diger",
+          "primary_type": "Journal Article"
+        },
+        {
+          "pmid": "42142827",
+          "title": "Impact of malnutrition on outcomes among elderly ST-Elevation myocardial infarction patients receiving primary percutaneous coronary intervention.",
+          "journal": "American heart journal",
+          "pub_date": "2026-10-01",
+          "pub_types": [
+            "Journal Article"
+          ],
+          "first_author": "Hosseini F",
+          "doi": "10.1016/j.ahj.2026.107489",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42142827/",
+          "score": 20,
+          "tier": "diger",
+          "primary_type": "Journal Article"
+        },
+        {
+          "pmid": "42107553",
+          "title": "Women's health initiative strong and healthy silent atrial fibrillation recording study: Rationale, study design, and baseline data.",
+          "journal": "American heart journal",
+          "pub_date": "2026-10-01",
+          "pub_types": [
+            "Clinical Trial Protocol",
+            "Journal Article"
+          ],
+          "first_author": "Gomez S",
+          "doi": "10.1016/j.ahj.2026.107478",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42107553/",
+          "score": 20,
+          "tier": "diger",
+          "primary_type": "Clinical Trial Protocol"
+        },
+        {
+          "pmid": "42107551",
+          "title": "Left atrial appendage closure in patients with non-valvular atrial fibrillation and end stage chronic KIDNEY disease: Rationale and design of the prospective randomized LAA-KIDNEY trial.",
+          "journal": "American heart journal",
+          "pub_date": "2026-10-01",
+          "pub_types": [
+            "Journal Article",
+            "Clinical Trial Protocol"
+          ],
+          "first_author": "Saraei R",
+          "doi": "10.1016/j.ahj.2026.107474",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42107551/",
+          "score": 20,
+          "tier": "diger",
+          "primary_type": "Journal Article"
+        },
+        {
+          "pmid": "42066936",
+          "title": "The European bifurcation club randomized trial of stepwise provisional stenting vs drug-coated balloon therapy for nonleft main true coronary bifurcations: The EBC DCB trial.",
+          "journal": "American heart journal",
+          "pub_date": "2026-10-01",
+          "pub_types": [
+            "Journal Article",
+            "Clinical Trial Protocol"
+          ],
+          "first_author": "Broyd C",
+          "doi": "10.1016/j.ahj.2026.107463",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42066936/",
+          "score": 20,
+          "tier": "diger",
+          "primary_type": "Journal Article"
+        },
+        {
+          "pmid": "42035974",
+          "title": "Community-based recruitment with ankle brachial index testing to identify peripheral artery disease participants for randomized clinical trials.",
+          "journal": "American heart journal",
+          "pub_date": "2026-10-01",
+          "pub_types": [
+            "Journal Article"
+          ],
+          "first_author": "McDermott M",
+          "doi": "10.1016/j.ahj.2026.107450",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42035974/",
+          "score": 20,
+          "tier": "diger",
+          "primary_type": "Journal Article"
+        },
+        {
+          "pmid": "42815583",
+          "title": "Temporal trends of outcomes following first hospitalization due to atrial fibrillation- a population-based study.",
+          "journal": "International journal of cardiology",
+          "pub_date": "2026-09-30",
+          "pub_types": [
+            "Journal Article"
+          ],
+          "first_author": "Moshkovits Y",
+          "doi": "10.1016/j.ijcard.2026.134952",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42815583/",
+          "score": 18,
+          "tier": "diger",
+          "primary_type": "Journal Article"
+        },
+        {
+          "pmid": "42815582",
+          "title": "Predicting the reduction of functional mitral regurgitation with optimized medical therapy in HFrEF patients by standard echocardiography and non-invasive pressure-volume loop model.",
+          "journal": "International journal of cardiology",
+          "pub_date": "2026-09-30",
+          "pub_types": [
+            "Journal Article"
+          ],
+          "first_author": "Ghio S",
+          "doi": "10.1016/j.ijcard.2026.134956",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42815582/",
+          "score": 18,
+          "tier": "diger",
+          "primary_type": "Journal Article"
+        },
+        {
+          "pmid": "42814451",
+          "title": "Long Working Hours-A Modifiable Occupational Risk Factor.",
+          "journal": "JAMA cardiology",
+          "pub_date": "2026-09-30",
+          "pub_types": [
+            "Journal Article"
+          ],
+          "first_author": "Sembajwe G",
+          "doi": "10.1001/jamacardio.2026.4012",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42814451/",
+          "score": 18,
+          "tier": "diger",
+          "primary_type": "Journal Article"
+        },
+        {
+          "pmid": "42814450",
+          "title": "Cardiovascular-Kidney-Metabolic Overlap in Patients Hospitalized for Heart Failure.",
+          "journal": "JAMA cardiology",
+          "pub_date": "2026-09-30",
+          "pub_types": [
+            "Journal Article"
+          ],
+          "first_author": "Kittipibul V",
+          "doi": "10.1001/jamacardio.2026.4215",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42814450/",
+          "score": 18,
+          "tier": "diger",
+          "primary_type": "Journal Article"
+        },
+        {
+          "pmid": "42814449",
+          "title": "Loss of Chromosome Y and Risk of Abdominal Aortic Aneurysm.",
+          "journal": "JAMA cardiology",
+          "pub_date": "2026-09-30",
+          "pub_types": [
+            "Journal Article"
+          ],
+          "first_author": "Nordan T",
+          "doi": "10.1001/jamacardio.2026.3981",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42814449/",
+          "score": 18,
+          "tier": "diger",
+          "primary_type": "Journal Article"
+        },
+        {
+          "pmid": "42814442",
+          "title": "A Polypill Strategy to Close the Heart Failure Treatment Gap.",
+          "journal": "JAMA cardiology",
+          "pub_date": "2026-09-30",
+          "pub_types": [
+            "Journal Article"
+          ],
+          "first_author": "Fonarow G",
+          "doi": "10.1001/jamacardio.2026.3727",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42814442/",
+          "score": 18,
+          "tier": "diger",
+          "primary_type": "Journal Article"
+        },
+        {
+          "pmid": "42814436",
+          "title": "Right Atrial Ectopic Hepatic Tissue at the Caval Inflow.",
+          "journal": "JAMA cardiology",
+          "pub_date": "2026-09-30",
+          "pub_types": [
+            "Journal Article"
+          ],
+          "first_author": "Cai Y",
+          "doi": "10.1001/jamacardio.2026.3607",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42814436/",
+          "score": 18,
+          "tier": "diger",
+          "primary_type": "Journal Article"
+        },
+        {
+          "pmid": "42814433",
+          "title": "Heart Failure With Reduced Ejection Fraction Polypill Implementation Strategy in Sri Lanka: A Randomized Clinical Trial.",
+          "journal": "JAMA cardiology",
+          "pub_date": "2026-09-30",
+          "pub_types": [
+            "Journal Article"
+          ],
+          "first_author": "Agarwal A",
+          "doi": "10.1001/jamacardio.2026.3719",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42814433/",
+          "score": 18,
+          "tier": "diger",
+          "primary_type": "Journal Article"
+        },
+        {
+          "pmid": "42814432",
+          "title": "Global, Regional, and National Burden of Heart Failure, 1990-2023: A Systematic Analysis for the Global Burden of Disease Study 2023.",
+          "journal": "JAMA cardiology",
+          "pub_date": "2026-09-30",
+          "pub_types": [
+            "Journal Article"
+          ],
+          "first_author": "",
+          "doi": "10.1001/jamacardio.2026.4068",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42814432/",
+          "score": 18,
+          "tier": "diger",
+          "primary_type": "Journal Article"
+        },
+        {
+          "pmid": "42814426",
+          "title": "A Recipe for Estimating the Global Burden of Heart Failure.",
+          "journal": "JAMA cardiology",
+          "pub_date": "2026-09-30",
+          "pub_types": [
+            "Journal Article"
+          ],
+          "first_author": "Joseph P",
+          "doi": "10.1001/jamacardio.2026.4084",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42814426/",
+          "score": 18,
+          "tier": "diger",
+          "primary_type": "Journal Article"
+        },
+        {
+          "pmid": "42814423",
+          "title": "Rheumatic Heart Disease-Forgotten but Not Gone.",
+          "journal": "JAMA cardiology",
+          "pub_date": "2026-09-30",
+          "pub_types": [
+            "Journal Article"
+          ],
+          "first_author": "Milan D",
+          "doi": "10.1001/jamacardio.2026.3780",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42814423/",
+          "score": 18,
+          "tier": "diger",
+          "primary_type": "Journal Article"
+        },
+        {
+          "pmid": "42814420",
+          "title": "No-Touch vs Conventional Vein Grafts in Coronary Surgery: Seven-Year Clinical Outcomes of the SWEDEGRAFT Randomized Clinical Trial.",
+          "journal": "JAMA cardiology",
+          "pub_date": "2026-09-30",
+          "pub_types": [
+            "Journal Article"
+          ],
+          "first_author": "Dalén M",
+          "doi": "10.1001/jamacardio.2026.4222",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42814420/",
+          "score": 18,
+          "tier": "diger",
+          "primary_type": "Journal Article"
+        },
+        {
+          "pmid": "42813845",
+          "title": "Implementation of cardiac magnetic resonance imaging in everyday cardiology practice.",
+          "journal": "European heart journal",
+          "pub_date": "2026-09-30",
+          "pub_types": [
+            "Journal Article"
+          ],
+          "first_author": "Moharem-Elgamal S",
+          "doi": "10.1093/eurheartj/ehag678",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42813845/",
+          "score": 18,
+          "tier": "diger",
+          "primary_type": "Journal Article"
+        },
+        {
+          "pmid": "42813360",
+          "title": "Comorbidity-specific molecular programmes of early diastolic dysfunction identify glucocorticoid receptor activation as a causal driver in obesity.",
+          "journal": "Cardiovascular research",
+          "pub_date": "2026-09-30",
+          "pub_types": [
+            "Journal Article"
+          ],
+          "first_author": "Ausiello A",
+          "doi": "10.1093/cvr/cvag193",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42813360/",
+          "score": 18,
+          "tier": "diger",
+          "primary_type": "Journal Article"
         },
         {
           "pmid": "42811522",
@@ -1301,7 +2779,7 @@
           "first_author": "Tao Z",
           "doi": "10.1093/eurjpc/zwag510",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42811522/",
-          "score": 20,
+          "score": 18,
           "tier": "diger",
           "primary_type": "Journal Article"
         },
@@ -1316,7 +2794,7 @@
           "first_author": "Ammar M",
           "doi": "10.1093/eurjpc/zwag502",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42811515/",
-          "score": 20,
+          "score": 18,
           "tier": "diger",
           "primary_type": "Journal Article"
         },
@@ -1331,7 +2809,367 @@
           "first_author": "Lyon A",
           "doi": "10.1093/cvr/cvag221",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42811450/",
-          "score": 20,
+          "score": 18,
+          "tier": "diger",
+          "primary_type": "Journal Article"
+        },
+        {
+          "pmid": "42331181",
+          "title": "Editorial on \"GLP-1 receptor agonists associated with better cardiovascular outcomes in obese or diabetic patients with elevated lip(a) levels: A multicenter retrospective study\" IJCJOURNAL-D-26-01993R1.",
+          "journal": "International journal of cardiology",
+          "pub_date": "2026-10-01",
+          "pub_types": [
+            "Editorial"
+          ],
+          "first_author": "Jones G",
+          "doi": "10.1016/j.ijcard.2026.134632",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42331181/",
+          "score": 18,
+          "tier": "diger",
+          "primary_type": "Editorial"
+        },
+        {
+          "pmid": "42314847",
+          "title": "From prognosis to prevention: Red blood cell distribution width across the heart failure continuum.",
+          "journal": "International journal of cardiology",
+          "pub_date": "2026-10-01",
+          "pub_types": [
+            "Editorial"
+          ],
+          "first_author": "Xanthopoulos A",
+          "doi": "10.1016/j.ijcard.2026.134633",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42314847/",
+          "score": 18,
+          "tier": "diger",
+          "primary_type": "Editorial"
+        },
+        {
+          "pmid": "42264426",
+          "title": "Revisiting direct oral anticoagulant monotherapy vs combination therapy with antiplatelets in chronic coronary syndrome patients with prior percutaneous coronary intervention: Balancing thromboembolism, mortality and bleeding.",
+          "journal": "American heart journal",
+          "pub_date": "2026-10-01",
+          "pub_types": [
+            "Editorial"
+          ],
+          "first_author": "Lip G",
+          "doi": "10.1016/j.ahj.2026.107509",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42264426/",
+          "score": 18,
+          "tier": "diger",
+          "primary_type": "Editorial"
+        },
+        {
+          "pmid": "42263951",
+          "title": "Coronary atherosclerosis: Is inflammation the key?",
+          "journal": "International journal of cardiology",
+          "pub_date": "2026-10-01",
+          "pub_types": [
+            "Editorial"
+          ],
+          "first_author": "Tuttolomondo D",
+          "doi": "10.1016/j.ijcard.2026.134603",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42263951/",
+          "score": 18,
+          "tier": "diger",
+          "primary_type": "Editorial"
+        },
+        {
+          "pmid": "42250695",
+          "title": "Impaired alveolar diffusing capacity as an underrecognized mechanism of dyspnea in HFpEF.",
+          "journal": "International journal of cardiology",
+          "pub_date": "2026-10-01",
+          "pub_types": [
+            "Editorial"
+          ],
+          "first_author": "Kobayashi M",
+          "doi": "10.1016/j.ijcard.2026.134599",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42250695/",
+          "score": 18,
+          "tier": "diger",
+          "primary_type": "Editorial"
+        },
+        {
+          "pmid": "42248420",
+          "title": "Beyond global longitudinal strain: What else is hidden in the echocardiographic signal?",
+          "journal": "International journal of cardiology",
+          "pub_date": "2026-10-01",
+          "pub_types": [
+            "Editorial"
+          ],
+          "first_author": "Donal E",
+          "doi": "10.1016/j.ijcard.2026.134604",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42248420/",
+          "score": 18,
+          "tier": "diger",
+          "primary_type": "Editorial"
+        },
+        {
+          "pmid": "42214629",
+          "title": "Editorial of \"Sex difference in clinically suspected immune checkpoint inhibitor-related myocarditis: a single-institute retrospective study with seven-year follow-up\" to International Journal of Cardiology.",
+          "journal": "International journal of cardiology",
+          "pub_date": "2026-10-01",
+          "pub_types": [
+            "Editorial"
+          ],
+          "first_author": "Trezza A",
+          "doi": "10.1016/j.ijcard.2026.134591",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42214629/",
+          "score": 18,
+          "tier": "diger",
+          "primary_type": "Editorial"
+        },
+        {
+          "pmid": "42810856",
+          "title": "PreHEART score for emergency medical services triage of chest pain: a randomised trial.",
+          "journal": "Heart (British Cardiac Society)",
+          "pub_date": "2026-09-29",
+          "pub_types": [
+            "Journal Article"
+          ],
+          "first_author": "Sagel D",
+          "doi": "10.1136/heartjnl-2026-328924",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42810856/",
+          "score": 16,
+          "tier": "diger",
+          "primary_type": "Journal Article"
+        },
+        {
+          "pmid": "42810565",
+          "title": "Periprocedural Myocardial Infarction and Clinical Outcomes in Diffuse versus Focal Coronary Artery Disease.",
+          "journal": "American heart journal",
+          "pub_date": "2026-09-29",
+          "pub_types": [
+            "Journal Article"
+          ],
+          "first_author": "Zhang H",
+          "doi": "10.1016/j.ahj.2026.107617",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42810565/",
+          "score": 16,
+          "tier": "diger",
+          "primary_type": "Journal Article"
+        },
+        {
+          "pmid": "42810454",
+          "title": "Beyond left atrial diameter in chagas disease: interatrial block and competing-risk modelling for atrial fibrillation risk.",
+          "journal": "International journal of cardiology",
+          "pub_date": "2026-09-29",
+          "pub_types": [
+            "Letter"
+          ],
+          "first_author": "Ullah T",
+          "doi": "10.1016/j.ijcard.2026.134950",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42810454/",
+          "score": 16,
+          "tier": "diger",
+          "primary_type": "Letter"
+        },
+        {
+          "pmid": "42810453",
+          "title": "cMRI, myocardial edema, and the ECG in patients with takotsubo syndrome.",
+          "journal": "International journal of cardiology",
+          "pub_date": "2026-09-29",
+          "pub_types": [
+            "Letter"
+          ],
+          "first_author": "Madias J",
+          "doi": "10.1016/j.ijcard.2026.134949",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42810453/",
+          "score": 16,
+          "tier": "diger",
+          "primary_type": "Letter"
+        },
+        {
+          "pmid": "42810452",
+          "title": "Personalised antiplatelet therapy during elective percutaneous coronary intervention in patients with chronic coronary syndrome: An international journal of cardiology expert consensus statement.",
+          "journal": "International journal of cardiology",
+          "pub_date": "2026-09-29",
+          "pub_types": [
+            "Journal Article"
+          ],
+          "first_author": "Pelliccia F",
+          "doi": "10.1016/j.ijcard.2026.134944",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42810452/",
+          "score": 16,
+          "tier": "diger",
+          "primary_type": "Journal Article"
+        },
+        {
+          "pmid": "42809722",
+          "title": "Correction to: Cardiac evaluation in the armed forces. A statement of the European Association of Preventive Cardiology of the ESC.",
+          "journal": "European journal of preventive cardiology",
+          "pub_date": "2026-09-29",
+          "pub_types": [
+            "Published Erratum"
+          ],
+          "first_author": "",
+          "doi": "10.1093/eurjpc/zwag506",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42809722/",
+          "score": 16,
+          "tier": "diger",
+          "primary_type": "Published Erratum"
+        },
+        {
+          "pmid": "42809720",
+          "title": "Correction to: Familial hypercholesterolaemia in children and adolescents: a European Atherosclerosis Society consensus statement.",
+          "journal": "European heart journal",
+          "pub_date": "2026-09-29",
+          "pub_types": [
+            "Published Erratum"
+          ],
+          "first_author": "",
+          "doi": "10.1093/eurheartj/ehag759",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42809720/",
+          "score": 16,
+          "tier": "diger",
+          "primary_type": "Published Erratum"
+        },
+        {
+          "pmid": "42808215",
+          "title": "Microaxial flow pump in high-risk PCI: proof of promise?",
+          "journal": "European heart journal",
+          "pub_date": "2026-09-29",
+          "pub_types": [
+            "Journal Article"
+          ],
+          "first_author": "Eitel I",
+          "doi": "10.1093/eurheartj/ehag719",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42808215/",
+          "score": 16,
+          "tier": "diger",
+          "primary_type": "Journal Article"
+        },
+        {
+          "pmid": "42808145",
+          "title": "FGFR1/KLB-MFG-E8 Maintains Microvascular Integrity and Adaptive Cardiac Remodeling.",
+          "journal": "Circulation research",
+          "pub_date": "2026-09-29",
+          "pub_types": [
+            "Journal Article"
+          ],
+          "first_author": "Gare S",
+          "doi": "10.1161/CIRCRESAHA.125.327950",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42808145/",
+          "score": 16,
+          "tier": "diger",
+          "primary_type": "Journal Article"
+        },
+        {
+          "pmid": "42806828",
+          "title": "Interpreting Early-Life BMI Burden in the Pathway to Atrial Remodelling.",
+          "journal": "European journal of preventive cardiology",
+          "pub_date": "2026-09-29",
+          "pub_types": [
+            "Journal Article"
+          ],
+          "first_author": "Tatar D",
+          "doi": "10.1093/eurjpc/zwag504",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42806828/",
+          "score": 16,
+          "tier": "diger",
+          "primary_type": "Journal Article"
+        },
+        {
+          "pmid": "42806778",
+          "title": "What does fractional flow reserve measure after transcatheter aortic valve implantation?",
+          "journal": "European heart journal",
+          "pub_date": "2026-09-29",
+          "pub_types": [
+            "Journal Article"
+          ],
+          "first_author": "Tona F",
+          "doi": "10.1093/eurheartj/ehag777",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42806778/",
+          "score": 16,
+          "tier": "diger",
+          "primary_type": "Journal Article"
+        },
+        {
+          "pmid": "42806775",
+          "title": "Coronary thrombosis with transiently increased pericoronary adipose tissue attenuation following parvovirus B19 infection.",
+          "journal": "European heart journal",
+          "pub_date": "2026-09-29",
+          "pub_types": [
+            "Journal Article"
+          ],
+          "first_author": "Kato H",
+          "doi": "10.1093/eurheartj/ehag807",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42806775/",
+          "score": 16,
+          "tier": "diger",
+          "primary_type": "Journal Article"
+        },
+        {
+          "pmid": "42806769",
+          "title": "Post-TAVI FFR: a continuum between epicardial and microvascular physiology.",
+          "journal": "European heart journal",
+          "pub_date": "2026-09-29",
+          "pub_types": [
+            "Journal Article"
+          ],
+          "first_author": "Ribichini F",
+          "doi": "10.1093/eurheartj/ehag779",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42806769/",
+          "score": 16,
+          "tier": "diger",
+          "primary_type": "Journal Article"
+        },
+        {
+          "pmid": "42806767",
+          "title": "Acute cellular rejection after heart transplantation: validation of HEARTBiT, a transcriptomic biomarker.",
+          "journal": "European heart journal",
+          "pub_date": "2026-09-29",
+          "pub_types": [
+            "Journal Article"
+          ],
+          "first_author": "Shannon C",
+          "doi": "10.1093/eurheartj/ehag751",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42806767/",
+          "score": 16,
+          "tier": "diger",
+          "primary_type": "Journal Article"
+        },
+        {
+          "pmid": "42806711",
+          "title": "Potential bone marrow-driven reduction of circulating inflammatory monocytes by semaglutide in Type 2 diabetes.",
+          "journal": "European heart journal",
+          "pub_date": "2026-09-29",
+          "pub_types": [
+            "Journal Article"
+          ],
+          "first_author": "Teunis C",
+          "doi": "10.1093/eurheartj/ehag627",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42806711/",
+          "score": 16,
+          "tier": "diger",
+          "primary_type": "Journal Article"
+        },
+        {
+          "pmid": "42806708",
+          "title": "TMAO and abdominal aortic aneurysm: temporal alignment, baseline disease burden, and the target estimand.",
+          "journal": "European heart journal",
+          "pub_date": "2026-09-29",
+          "pub_types": [
+            "Journal Article"
+          ],
+          "first_author": "Li G",
+          "doi": "10.1093/eurheartj/ehag688",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42806708/",
+          "score": 16,
+          "tier": "diger",
+          "primary_type": "Journal Article"
+        },
+        {
+          "pmid": "42805364",
+          "title": "Study protocol for The Heart Watch Study - Prognostic performance of smartwatch 12-lead ECG with advanced ECG analysis in consumer self-screening for cardiovascular disease.",
+          "journal": "American heart journal",
+          "pub_date": "2026-09-29",
+          "pub_types": [
+            "Journal Article"
+          ],
+          "first_author": "Al-Falahi Z",
+          "doi": "10.1016/j.ahj.2026.107619",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42805364/",
+          "score": 16,
           "tier": "diger",
           "primary_type": "Journal Article"
         },
@@ -1347,264 +3185,9 @@
           "first_author": "Bikdeli B",
           "doi": "10.1038/s41569-026-01334-3",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42802155/",
-          "score": 19,
+          "score": 16,
           "tier": "diger",
           "primary_type": "Review"
-        },
-        {
-          "pmid": "42810856",
-          "title": "PreHEART score for emergency medical services triage of chest pain: a randomised trial.",
-          "journal": "Heart (British Cardiac Society)",
-          "pub_date": "2026-09-29",
-          "pub_types": [
-            "Journal Article"
-          ],
-          "first_author": "Sagel D",
-          "doi": "10.1136/heartjnl-2026-328924",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42810856/",
-          "score": 18,
-          "tier": "diger",
-          "primary_type": "Journal Article"
-        },
-        {
-          "pmid": "42810565",
-          "title": "Periprocedural Myocardial Infarction and Clinical Outcomes in Diffuse versus Focal Coronary Artery Disease.",
-          "journal": "American heart journal",
-          "pub_date": "2026-09-29",
-          "pub_types": [
-            "Journal Article"
-          ],
-          "first_author": "Zhang H",
-          "doi": "10.1016/j.ahj.2026.107617",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42810565/",
-          "score": 18,
-          "tier": "diger",
-          "primary_type": "Journal Article"
-        },
-        {
-          "pmid": "42810454",
-          "title": "Beyond left atrial diameter in chagas disease: interatrial block and competing-risk modelling for atrial fibrillation risk.",
-          "journal": "International journal of cardiology",
-          "pub_date": "2026-09-29",
-          "pub_types": [
-            "Letter"
-          ],
-          "first_author": "Ullah T",
-          "doi": "10.1016/j.ijcard.2026.134950",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42810454/",
-          "score": 18,
-          "tier": "diger",
-          "primary_type": "Letter"
-        },
-        {
-          "pmid": "42810453",
-          "title": "cMRI, myocardial edema, and the ECG in patients with takotsubo syndrome.",
-          "journal": "International journal of cardiology",
-          "pub_date": "2026-09-29",
-          "pub_types": [
-            "Letter"
-          ],
-          "first_author": "Madias J",
-          "doi": "10.1016/j.ijcard.2026.134949",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42810453/",
-          "score": 18,
-          "tier": "diger",
-          "primary_type": "Letter"
-        },
-        {
-          "pmid": "42810452",
-          "title": "Personalised antiplatelet therapy during elective percutaneous coronary intervention in patients with chronic coronary syndrome: An international journal of cardiology expert consensus statement.",
-          "journal": "International journal of cardiology",
-          "pub_date": "2026-09-29",
-          "pub_types": [
-            "Journal Article"
-          ],
-          "first_author": "Pelliccia F",
-          "doi": "10.1016/j.ijcard.2026.134944",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42810452/",
-          "score": 18,
-          "tier": "diger",
-          "primary_type": "Journal Article"
-        },
-        {
-          "pmid": "42809722",
-          "title": "Correction to: Cardiac evaluation in the armed forces. A statement of the European Association of Preventive Cardiology of the ESC.",
-          "journal": "European journal of preventive cardiology",
-          "pub_date": "2026-09-29",
-          "pub_types": [
-            "Published Erratum"
-          ],
-          "first_author": "",
-          "doi": "10.1093/eurjpc/zwag506",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42809722/",
-          "score": 18,
-          "tier": "diger",
-          "primary_type": "Published Erratum"
-        },
-        {
-          "pmid": "42809720",
-          "title": "Correction to: Familial hypercholesterolaemia in children and adolescents: a European Atherosclerosis Society consensus statement.",
-          "journal": "European heart journal",
-          "pub_date": "2026-09-29",
-          "pub_types": [
-            "Published Erratum"
-          ],
-          "first_author": "",
-          "doi": "10.1093/eurheartj/ehag759",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42809720/",
-          "score": 18,
-          "tier": "diger",
-          "primary_type": "Published Erratum"
-        },
-        {
-          "pmid": "42808215",
-          "title": "Microaxial flow pump in high-risk PCI: proof of promise?",
-          "journal": "European heart journal",
-          "pub_date": "2026-09-29",
-          "pub_types": [
-            "Journal Article"
-          ],
-          "first_author": "Eitel I",
-          "doi": "10.1093/eurheartj/ehag719",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42808215/",
-          "score": 18,
-          "tier": "diger",
-          "primary_type": "Journal Article"
-        },
-        {
-          "pmid": "42808145",
-          "title": "FGFR1/KLB-MFG-E8 Maintains Microvascular Integrity and Adaptive Cardiac Remodeling.",
-          "journal": "Circulation research",
-          "pub_date": "2026-09-29",
-          "pub_types": [
-            "Journal Article"
-          ],
-          "first_author": "Gare S",
-          "doi": "10.1161/CIRCRESAHA.125.327950",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42808145/",
-          "score": 18,
-          "tier": "diger",
-          "primary_type": "Journal Article"
-        },
-        {
-          "pmid": "42806828",
-          "title": "Interpreting Early-Life BMI Burden in the Pathway to Atrial Remodelling.",
-          "journal": "European journal of preventive cardiology",
-          "pub_date": "2026-09-29",
-          "pub_types": [
-            "Journal Article"
-          ],
-          "first_author": "Tatar D",
-          "doi": "10.1093/eurjpc/zwag504",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42806828/",
-          "score": 18,
-          "tier": "diger",
-          "primary_type": "Journal Article"
-        },
-        {
-          "pmid": "42806778",
-          "title": "What does fractional flow reserve measure after transcatheter aortic valve implantation?",
-          "journal": "European heart journal",
-          "pub_date": "2026-09-29",
-          "pub_types": [
-            "Journal Article"
-          ],
-          "first_author": "Tona F",
-          "doi": "10.1093/eurheartj/ehag777",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42806778/",
-          "score": 18,
-          "tier": "diger",
-          "primary_type": "Journal Article"
-        },
-        {
-          "pmid": "42806775",
-          "title": "Coronary thrombosis with transiently increased pericoronary adipose tissue attenuation following parvovirus B19 infection.",
-          "journal": "European heart journal",
-          "pub_date": "2026-09-29",
-          "pub_types": [
-            "Journal Article"
-          ],
-          "first_author": "Kato H",
-          "doi": "10.1093/eurheartj/ehag807",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42806775/",
-          "score": 18,
-          "tier": "diger",
-          "primary_type": "Journal Article"
-        },
-        {
-          "pmid": "42806769",
-          "title": "Post-TAVI FFR: a continuum between epicardial and microvascular physiology.",
-          "journal": "European heart journal",
-          "pub_date": "2026-09-29",
-          "pub_types": [
-            "Journal Article"
-          ],
-          "first_author": "Ribichini F",
-          "doi": "10.1093/eurheartj/ehag779",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42806769/",
-          "score": 18,
-          "tier": "diger",
-          "primary_type": "Journal Article"
-        },
-        {
-          "pmid": "42806767",
-          "title": "Acute cellular rejection after heart transplantation: validation of HEARTBiT, a transcriptomic biomarker.",
-          "journal": "European heart journal",
-          "pub_date": "2026-09-29",
-          "pub_types": [
-            "Journal Article"
-          ],
-          "first_author": "Shannon C",
-          "doi": "10.1093/eurheartj/ehag751",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42806767/",
-          "score": 18,
-          "tier": "diger",
-          "primary_type": "Journal Article"
-        },
-        {
-          "pmid": "42806711",
-          "title": "Potential bone marrow-driven reduction of circulating inflammatory monocytes by semaglutide in Type 2 diabetes.",
-          "journal": "European heart journal",
-          "pub_date": "2026-09-29",
-          "pub_types": [
-            "Journal Article"
-          ],
-          "first_author": "Teunis C",
-          "doi": "10.1093/eurheartj/ehag627",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42806711/",
-          "score": 18,
-          "tier": "diger",
-          "primary_type": "Journal Article"
-        },
-        {
-          "pmid": "42806708",
-          "title": "TMAO and abdominal aortic aneurysm: temporal alignment, baseline disease burden, and the target estimand.",
-          "journal": "European heart journal",
-          "pub_date": "2026-09-29",
-          "pub_types": [
-            "Journal Article"
-          ],
-          "first_author": "Li G",
-          "doi": "10.1093/eurheartj/ehag688",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42806708/",
-          "score": 18,
-          "tier": "diger",
-          "primary_type": "Journal Article"
-        },
-        {
-          "pmid": "42805364",
-          "title": "Study protocol for The Heart Watch Study - Prognostic performance of smartwatch 12-lead ECG with advanced ECG analysis in consumer self-screening for cardiovascular disease.",
-          "journal": "American heart journal",
-          "pub_date": "2026-09-29",
-          "pub_types": [
-            "Journal Article"
-          ],
-          "first_author": "Al-Falahi Z",
-          "doi": "10.1016/j.ahj.2026.107619",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42805364/",
-          "score": 18,
-          "tier": "diger",
-          "primary_type": "Journal Article"
         },
         {
           "pmid": "42805363",
@@ -1617,7 +3200,7 @@
           "first_author": "Moussa M",
           "doi": "10.1016/j.ahj.2026.107616",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42805363/",
-          "score": 16,
+          "score": 14,
           "tier": "diger",
           "primary_type": "Journal Article"
         },
@@ -1632,7 +3215,7 @@
           "first_author": "Nwankwo H",
           "doi": "10.1093/eurjpc/zwag509",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42803500/",
-          "score": 16,
+          "score": 14,
           "tier": "diger",
           "primary_type": "Journal Article"
         },
@@ -1647,7 +3230,7 @@
           "first_author": "",
           "doi": "10.1093/eurheartj/ehag791",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42803385/",
-          "score": 16,
+          "score": 14,
           "tier": "diger",
           "primary_type": "Published Erratum"
         },
@@ -1662,7 +3245,7 @@
           "first_author": "Shafi T",
           "doi": "10.1093/ejhf/xuag299",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42803273/",
-          "score": 16,
+          "score": 14,
           "tier": "diger",
           "primary_type": "Journal Article"
         },
@@ -1677,7 +3260,7 @@
           "first_author": "Marton A",
           "doi": "10.1161/CIRCRESAHA.126.329131",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42803000/",
-          "score": 16,
+          "score": 14,
           "tier": "diger",
           "primary_type": "Journal Article"
         },
@@ -1692,9 +3275,24 @@
           "first_author": "Bozoglu T",
           "doi": "10.1093/cvr/cvag218",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42802489/",
-          "score": 16,
+          "score": 14,
           "tier": "diger",
           "primary_type": "Journal Article"
+        },
+        {
+          "pmid": "42814044",
+          "title": "Digoxin: An Opportunity to Investigate Utility in Advanced Heart Failure and Cardiogenic Shock.",
+          "journal": "JACC. Heart failure",
+          "pub_date": "2026-09-28",
+          "pub_types": [
+            "Editorial"
+          ],
+          "first_author": "Hanna M",
+          "doi": "10.1016/j.jchf.2026.103373",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42814044/",
+          "score": 12,
+          "tier": "diger",
+          "primary_type": "Editorial"
         },
         {
           "pmid": "42801916",
@@ -1707,39 +3305,9 @@
           "first_author": "Cho K",
           "doi": "10.1016/j.ijcard.2026.134943",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42801916/",
-          "score": 14,
+          "score": 11,
           "tier": "diger",
           "primary_type": "Journal Article"
-        },
-        {
-          "pmid": "42801918",
-          "title": "Beyond diabetes: Does glycaemic health shape the atrial substrate?",
-          "journal": "International journal of cardiology",
-          "pub_date": "2026-09-27",
-          "pub_types": [
-            "Editorial"
-          ],
-          "first_author": "Nedios S",
-          "doi": "10.1016/j.ijcard.2026.134947",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42801918/",
-          "score": 12,
-          "tier": "diger",
-          "primary_type": "Editorial"
-        },
-        {
-          "pmid": "42801917",
-          "title": "Endothelial dysfunction across the spectrum of non-obstructive coronary syndromes: not all endothelial dysfunction is equal.",
-          "journal": "International journal of cardiology",
-          "pub_date": "2026-09-27",
-          "pub_types": [
-            "Editorial"
-          ],
-          "first_author": "Toya T",
-          "doi": "10.1016/j.ijcard.2026.134946",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42801917/",
-          "score": 12,
-          "tier": "diger",
-          "primary_type": "Editorial"
         },
         {
           "pmid": "42785754",
@@ -1753,7 +3321,7 @@
           "first_author": "Verburg A",
           "doi": "10.1136/heartjnl-2026-328218",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42785754/",
-          "score": 12,
+          "score": 10,
           "tier": "diger",
           "primary_type": "Review"
         },
@@ -1769,7 +3337,7 @@
           "first_author": "Latimer M",
           "doi": "10.1093/cvr/cvag169",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42581816/",
-          "score": 12,
+          "score": 10,
           "tier": "diger",
           "primary_type": "Review"
         },
@@ -1785,7 +3353,7 @@
           "first_author": "Visch J",
           "doi": "10.1093/cvr/cvag153",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42454967/",
-          "score": 12,
+          "score": 10,
           "tier": "diger",
           "primary_type": "Review"
         },
@@ -1801,9 +3369,39 @@
           "first_author": "Villelabeitia I",
           "doi": "10.1136/heartjnl-2025-326812",
           "url": "https://pubmed.ncbi.nlm.nih.gov/41730547/",
-          "score": 12,
+          "score": 10,
           "tier": "diger",
           "primary_type": "Review"
+        },
+        {
+          "pmid": "42801918",
+          "title": "Beyond diabetes: Does glycaemic health shape the atrial substrate?",
+          "journal": "International journal of cardiology",
+          "pub_date": "2026-09-27",
+          "pub_types": [
+            "Editorial"
+          ],
+          "first_author": "Nedios S",
+          "doi": "10.1016/j.ijcard.2026.134947",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42801918/",
+          "score": 9,
+          "tier": "diger",
+          "primary_type": "Editorial"
+        },
+        {
+          "pmid": "42801917",
+          "title": "Endothelial dysfunction across the spectrum of non-obstructive coronary syndromes: not all endothelial dysfunction is equal.",
+          "journal": "International journal of cardiology",
+          "pub_date": "2026-09-27",
+          "pub_types": [
+            "Editorial"
+          ],
+          "first_author": "Toya T",
+          "doi": "10.1016/j.ijcard.2026.134946",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42801917/",
+          "score": 9,
+          "tier": "diger",
+          "primary_type": "Editorial"
         },
         {
           "pmid": "42800498",
@@ -1816,7 +3414,7 @@
           "first_author": "Han J",
           "doi": "10.1016/j.ahj.2026.107615",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42800498/",
-          "score": 11,
+          "score": 9,
           "tier": "diger",
           "primary_type": "Journal Article"
         },
@@ -1831,7 +3429,7 @@
           "first_author": "Moustafa A",
           "doi": "10.1016/j.ahj.2026.107618",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42800497/",
-          "score": 11,
+          "score": 9,
           "tier": "diger",
           "primary_type": "Journal Article"
         },
@@ -1846,7 +3444,7 @@
           "first_author": "Tsimikas S",
           "doi": "10.1093/eurjpc/zwag512",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42800056/",
-          "score": 11,
+          "score": 9,
           "tier": "diger",
           "primary_type": "Journal Article"
         },
@@ -1861,7 +3459,7 @@
           "first_author": "Wärme J",
           "doi": "10.1093/eurjpc/zwag508",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42800055/",
-          "score": 11,
+          "score": 9,
           "tier": "diger",
           "primary_type": "Journal Article"
         },
@@ -1876,7 +3474,7 @@
           "first_author": "Gori M",
           "doi": "10.1093/eurheartj/ehag588",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42799541/",
-          "score": 11,
+          "score": 9,
           "tier": "diger",
           "primary_type": "Journal Article"
         },
@@ -1891,7 +3489,7 @@
           "first_author": "O'Driscoll J",
           "doi": "10.1093/eurjpc/zwag454",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42798789/",
-          "score": 11,
+          "score": 9,
           "tier": "diger",
           "primary_type": "Journal Article"
         },
@@ -1906,7 +3504,7 @@
           "first_author": "Mathews O",
           "doi": "10.1093/cvr/cvag219",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42798155/",
-          "score": 11,
+          "score": 9,
           "tier": "diger",
           "primary_type": "Journal Article"
         },
@@ -1921,7 +3519,7 @@
           "first_author": "Magistri M",
           "doi": "10.1016/j.ijcard.2026.134945",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42790753/",
-          "score": 9,
+          "score": 7,
           "tier": "diger",
           "primary_type": "Journal Article"
         },
@@ -1936,7 +3534,7 @@
           "first_author": "Hotta V",
           "doi": "10.1016/j.ijcard.2026.134929",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42790752/",
-          "score": 9,
+          "score": 7,
           "tier": "diger",
           "primary_type": "Journal Article"
         },
@@ -1951,7 +3549,7 @@
           "first_author": "Heo J",
           "doi": "10.1093/eurjpc/zwag455",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42789757/",
-          "score": 9,
+          "score": 7,
           "tier": "diger",
           "primary_type": "Journal Article"
         },
@@ -1966,7 +3564,7 @@
           "first_author": "Qu K",
           "doi": "10.1093/ejhf/xuag298",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42789496/",
-          "score": 9,
+          "score": 7,
           "tier": "diger",
           "primary_type": "Journal Article"
         },
@@ -1981,7 +3579,7 @@
           "first_author": "Zuela-Sopilniak N",
           "doi": "10.1161/CIRCRESAHA.125.327744",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42788248/",
-          "score": 9,
+          "score": 7,
           "tier": "diger",
           "primary_type": "Journal Article"
         },
@@ -1996,7 +3594,7 @@
           "first_author": "Barbieri M",
           "doi": "10.1093/cvr/cvag216",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42786892/",
-          "score": 9,
+          "score": 7,
           "tier": "diger",
           "primary_type": "Journal Article"
         },
@@ -2011,7 +3609,7 @@
           "first_author": "",
           "doi": "10.1161/RES.0000000000000770",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42784652/",
-          "score": 9,
+          "score": 7,
           "tier": "diger",
           "primary_type": "Journal Article"
         },
@@ -2026,7 +3624,7 @@
           "first_author": "Wang Y",
           "doi": "10.1161/CIRCRESAHA.126.329058",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42677470/",
-          "score": 9,
+          "score": 7,
           "tier": "diger",
           "primary_type": "Journal Article"
         },
@@ -2041,7 +3639,7 @@
           "first_author": "Zhang S",
           "doi": "10.1161/CIRCRESAHA.125.327537",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42644248/",
-          "score": 9,
+          "score": 7,
           "tier": "diger",
           "primary_type": "Journal Article"
         },
@@ -2056,7 +3654,7 @@
           "first_author": "Rawnsley D",
           "doi": "10.1161/CIRCRESAHA.126.328328",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42644246/",
-          "score": 9,
+          "score": 7,
           "tier": "diger",
           "primary_type": "Journal Article"
         },
@@ -2071,7 +3669,7 @@
           "first_author": "Redpath A",
           "doi": "10.1161/CIRCRESAHA.125.327330",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42639658/",
-          "score": 9,
+          "score": 7,
           "tier": "diger",
           "primary_type": "Journal Article"
         },
@@ -2086,7 +3684,7 @@
           "first_author": "Zhu E",
           "doi": "10.1161/CIRCRESAHA.126.328898",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42639657/",
-          "score": 9,
+          "score": 7,
           "tier": "diger",
           "primary_type": "Letter"
         },
@@ -2101,7 +3699,7 @@
           "first_author": "Li F",
           "doi": "10.1161/CIRCRESAHA.126.328454",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42626783/",
-          "score": 9,
+          "score": 7,
           "tier": "diger",
           "primary_type": "Journal Article"
         },
@@ -2116,7 +3714,7 @@
           "first_author": "Gokhan I",
           "doi": "10.1161/CIRCRESAHA.125.327676",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42626780/",
-          "score": 9,
+          "score": 7,
           "tier": "diger",
           "primary_type": "Journal Article"
         },
@@ -2131,7 +3729,7 @@
           "first_author": "Erlich I",
           "doi": "10.1161/CIRCRESAHA.126.329033",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42626779/",
-          "score": 9,
+          "score": 7,
           "tier": "diger",
           "primary_type": "Journal Article"
         },
@@ -2146,7 +3744,7 @@
           "first_author": "Ninh V",
           "doi": "10.1161/CIRCRESAHA.126.328581",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42605624/",
-          "score": 9,
+          "score": 7,
           "tier": "diger",
           "primary_type": "Letter"
         },
@@ -2162,7 +3760,7 @@
           "first_author": "Askarinejad A",
           "doi": "10.1093/cvr/cvag156",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42423179/",
-          "score": 8,
+          "score": 6,
           "tier": "diger",
           "primary_type": "Observational Study"
         },
@@ -2178,7 +3776,7 @@
           "first_author": "Zhou Z",
           "doi": "10.1136/heartjnl-2025-326058",
           "url": "https://pubmed.ncbi.nlm.nih.gov/41461542/",
-          "score": 8,
+          "score": 6,
           "tier": "diger",
           "primary_type": "Observational Study"
         },
@@ -2193,7 +3791,7 @@
           "first_author": "Brener M",
           "doi": "10.1016/j.jchf.2026.103374",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42808944/",
-          "score": 7,
+          "score": 5,
           "tier": "diger",
           "primary_type": "Editorial"
         },
@@ -2208,7 +3806,7 @@
           "first_author": "Ye F",
           "doi": "10.1136/heartjnl-2026-328338",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42785755/",
-          "score": 7,
+          "score": 5,
           "tier": "diger",
           "primary_type": "Journal Article"
         },
@@ -2223,7 +3821,7 @@
           "first_author": "Agam A",
           "doi": "10.1016/j.ijcard.2026.134940",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42785593/",
-          "score": 7,
+          "score": 5,
           "tier": "diger",
           "primary_type": "Journal Article"
         },
@@ -2238,7 +3836,7 @@
           "first_author": "Kyslyi V",
           "doi": "10.1093/cvr/cvag176",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42784721/",
-          "score": 7,
+          "score": 5,
           "tier": "diger",
           "primary_type": "Journal Article"
         },
@@ -2253,7 +3851,7 @@
           "first_author": "Racioppi M",
           "doi": "10.1161/CIRCRESAHA.126.329363",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42784651/",
-          "score": 7,
+          "score": 5,
           "tier": "diger",
           "primary_type": "Editorial"
         },
@@ -2268,7 +3866,7 @@
           "first_author": "Sung E",
           "doi": "10.1161/CIRCRESAHA.126.329602",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42784650/",
-          "score": 7,
+          "score": 5,
           "tier": "diger",
           "primary_type": "Editorial"
         },
@@ -2283,7 +3881,7 @@
           "first_author": "Hong J",
           "doi": "10.1161/CIRCRESAHA.126.328216",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42779536/",
-          "score": 7,
+          "score": 5,
           "tier": "diger",
           "primary_type": "Journal Article"
         },
@@ -2298,7 +3896,7 @@
           "first_author": "Jiang X",
           "doi": "10.1161/CIRCRESAHA.126.328338",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42779507/",
-          "score": 7,
+          "score": 5,
           "tier": "diger",
           "primary_type": "Journal Article"
         },
@@ -2313,7 +3911,7 @@
           "first_author": "Molokotina I",
           "doi": "10.1093/cvr/cvag211",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42779093/",
-          "score": 7,
+          "score": 5,
           "tier": "diger",
           "primary_type": "Journal Article"
         },
@@ -2328,7 +3926,7 @@
           "first_author": "Christiansen S",
           "doi": "10.1093/cvr/cvag202",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42778399/",
-          "score": 7,
+          "score": 5,
           "tier": "diger",
           "primary_type": "Journal Article"
         },
@@ -2343,7 +3941,7 @@
           "first_author": "Gkantsinikoudi C",
           "doi": "10.1093/cvr/cvag177",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42615184/",
-          "score": 7,
+          "score": 5,
           "tier": "diger",
           "primary_type": "Journal Article"
         },
@@ -2358,7 +3956,7 @@
           "first_author": "Le Gouge K",
           "doi": "10.1093/cvr/cvag162",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42522569/",
-          "score": 7,
+          "score": 5,
           "tier": "diger",
           "primary_type": "Journal Article"
         },
@@ -2373,7 +3971,7 @@
           "first_author": "Schulte C",
           "doi": "10.1093/cvr/cvag152",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42496207/",
-          "score": 7,
+          "score": 5,
           "tier": "diger",
           "primary_type": "Journal Article"
         },
@@ -2388,7 +3986,7 @@
           "first_author": "Seguret M",
           "doi": "10.1093/cvr/cvag163",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42478871/",
-          "score": 7,
+          "score": 5,
           "tier": "diger",
           "primary_type": "Journal Article"
         },
@@ -2403,7 +4001,7 @@
           "first_author": "Langione M",
           "doi": "10.1093/cvr/cvag159",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42445987/",
-          "score": 7,
+          "score": 5,
           "tier": "diger",
           "primary_type": "Journal Article"
         },
@@ -2418,7 +4016,7 @@
           "first_author": "de Mol J",
           "doi": "10.1093/cvr/cvag154",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42433156/",
-          "score": 7,
+          "score": 5,
           "tier": "diger",
           "primary_type": "Journal Article"
         },
@@ -2433,7 +4031,7 @@
           "first_author": "Wimmer M",
           "doi": "10.1093/cvr/cvag158",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42417540/",
-          "score": 7,
+          "score": 5,
           "tier": "diger",
           "primary_type": "Journal Article"
         },
@@ -2448,7 +4046,7 @@
           "first_author": "Kametani Y",
           "doi": "10.1093/cvr/cvag151",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42403026/",
-          "score": 7,
+          "score": 5,
           "tier": "diger",
           "primary_type": "Journal Article"
         },
@@ -2463,7 +4061,7 @@
           "first_author": "Yang J",
           "doi": "10.1093/cvr/cvag133",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42334375/",
-          "score": 7,
+          "score": 5,
           "tier": "diger",
           "primary_type": "Journal Article"
         },
@@ -2479,7 +4077,7 @@
           "first_author": "Monzo L",
           "doi": "10.1136/heartjnl-2025-326517",
           "url": "https://pubmed.ncbi.nlm.nih.gov/41249034/",
-          "score": 7,
+          "score": 5,
           "tier": "diger",
           "primary_type": "Comparative Study"
         },
@@ -2494,7 +4092,7 @@
           "first_author": "Martin N",
           "doi": "10.1136/heartjnl-2025-326777",
           "url": "https://pubmed.ncbi.nlm.nih.gov/41176318/",
-          "score": 7,
+          "score": 5,
           "tier": "diger",
           "primary_type": "Journal Article"
         },
@@ -2509,7 +4107,7 @@
           "first_author": "Mehra M",
           "doi": "10.1016/j.jchf.2026.103371",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42788922/",
-          "score": 5,
+          "score": 3,
           "tier": "diger",
           "primary_type": "Editorial"
         },
@@ -2524,309 +4122,9 @@
           "first_author": "Lechner I",
           "doi": "10.1016/j.ijcard.2026.134942",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42785592/",
-          "score": 5,
+          "score": 3,
           "tier": "diger",
           "primary_type": "Editorial"
-        },
-        {
-          "pmid": "42777794",
-          "title": "Single vs. dual antiplatelet therapy in elderly or HBR patients undergoing percutaneous interventions with drug-coated balloons: design and rationale of PICCOLETO IV-EPIC 38 study.",
-          "journal": "American heart journal",
-          "pub_date": "2026-09-23",
-          "pub_types": [
-            "Journal Article"
-          ],
-          "first_author": "Wanha W",
-          "doi": "10.1016/j.ahj.2026.107606",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42777794/",
-          "score": 5,
-          "tier": "diger",
-          "primary_type": "Journal Article"
-        },
-        {
-          "pmid": "42777793",
-          "title": "The Evolving Clinical Profile of Patients with Repaired Tetralogy of Fallot Undergoing Pulmonary Valve Replacement.",
-          "journal": "American heart journal",
-          "pub_date": "2026-09-23",
-          "pub_types": [
-            "Journal Article"
-          ],
-          "first_author": "Lee J",
-          "doi": "10.1016/j.ahj.2026.107614",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42777793/",
-          "score": 5,
-          "tier": "diger",
-          "primary_type": "Journal Article"
-        },
-        {
-          "pmid": "42777787",
-          "title": "Impact of calcium burden, lesion preparation, and lithotripsy on stent underexpansion in severely calcified coronary lesions - a substudy of the BALI trial.",
-          "journal": "International journal of cardiology",
-          "pub_date": "2026-09-23",
-          "pub_types": [
-            "Journal Article"
-          ],
-          "first_author": "Kristensen A",
-          "doi": "10.1016/j.ijcard.2026.134941",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42777787/",
-          "score": 5,
-          "tier": "diger",
-          "primary_type": "Journal Article"
-        },
-        {
-          "pmid": "42777687",
-          "title": "Semaglutide and cardiovascular risk reduction: a mediation analysis of the SELECT trial.",
-          "journal": "European heart journal",
-          "pub_date": "2026-09-23",
-          "pub_types": [
-            "Journal Article"
-          ],
-          "first_author": "Colhoun H",
-          "doi": "10.1093/eurheartj/ehag524",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42777687/",
-          "score": 5,
-          "tier": "diger",
-          "primary_type": "Journal Article"
-        },
-        {
-          "pmid": "42777686",
-          "title": "Semaglutide mechanisms of action: the missing pieces.",
-          "journal": "European heart journal",
-          "pub_date": "2026-09-23",
-          "pub_types": [
-            "Journal Article"
-          ],
-          "first_author": "Verma S",
-          "doi": "10.1093/eurheartj/ehag602",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42777686/",
-          "score": 5,
-          "tier": "diger",
-          "primary_type": "Journal Article"
-        },
-        {
-          "pmid": "42777154",
-          "title": "Microbiome-Targeted Interventions for Early Cardiometabolic Prevention: A Systematic Review and Meta-Analysis in Children and Adolescents.",
-          "journal": "European journal of preventive cardiology",
-          "pub_date": "2026-09-23",
-          "pub_types": [
-            "Journal Article"
-          ],
-          "first_author": "Zare N",
-          "doi": "10.1093/eurjpc/zwag500",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42777154/",
-          "score": 5,
-          "tier": "diger",
-          "primary_type": "Journal Article"
-        },
-        {
-          "pmid": "42776597",
-          "title": "Correction to: Atrial fibrillation density as a biomarker for ischaemic stroke risk prediction.",
-          "journal": "European heart journal",
-          "pub_date": "2026-09-23",
-          "pub_types": [
-            "Published Erratum"
-          ],
-          "first_author": "",
-          "doi": "10.1093/eurheartj/ehag771",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42776597/",
-          "score": 5,
-          "tier": "diger",
-          "primary_type": "Published Erratum"
-        },
-        {
-          "pmid": "42776589",
-          "title": "Non-steroidal mineralocorticoid receptor antagonists in HFpEF/HFmrEF: does resistant hypertension matter?",
-          "journal": "European journal of heart failure",
-          "pub_date": "2026-09-23",
-          "pub_types": [
-            "Journal Article"
-          ],
-          "first_author": "Komori T",
-          "doi": "10.1093/ejhf/xuag273",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42776589/",
-          "score": 5,
-          "tier": "diger",
-          "primary_type": "Journal Article"
-        },
-        {
-          "pmid": "42776566",
-          "title": "Correction to: Europe's heart failure landscape: the persistent under-recognition of HFpEF.",
-          "journal": "European heart journal",
-          "pub_date": "2026-09-23",
-          "pub_types": [
-            "Published Erratum"
-          ],
-          "first_author": "",
-          "doi": "10.1093/eurheartj/ehag796",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42776566/",
-          "score": 5,
-          "tier": "diger",
-          "primary_type": "Published Erratum"
-        },
-        {
-          "pmid": "42776557",
-          "title": "Undiagnosed Chronic Kidney Disease, Outcomes, and Finerenone in Heart Failure: The FINEARTS-HF Randomized Clinical Trial.",
-          "journal": "JAMA cardiology",
-          "pub_date": "2026-09-23",
-          "pub_types": [
-            "Journal Article"
-          ],
-          "first_author": "Ostrominski J",
-          "doi": "10.1001/jamacardio.2026.3507",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42776557/",
-          "score": 5,
-          "tier": "diger",
-          "primary_type": "Journal Article"
-        },
-        {
-          "pmid": "42776556",
-          "title": "Interpreting 7-Year Valve Durability in PARTNER 3-Reply.",
-          "journal": "JAMA cardiology",
-          "pub_date": "2026-09-23",
-          "pub_types": [
-            "Journal Article"
-          ],
-          "first_author": "Pibarot P",
-          "doi": "10.1001/jamacardio.2026.3584",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42776556/",
-          "score": 5,
-          "tier": "diger",
-          "primary_type": "Journal Article"
-        },
-        {
-          "pmid": "42776541",
-          "title": "Interpreting 7-Year Valve Durability in PARTNER 3.",
-          "journal": "JAMA cardiology",
-          "pub_date": "2026-09-23",
-          "pub_types": [
-            "Journal Article"
-          ],
-          "first_author": "Useini D",
-          "doi": "10.1001/jamacardio.2026.3563",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42776541/",
-          "score": 5,
-          "tier": "diger",
-          "primary_type": "Journal Article"
-        },
-        {
-          "pmid": "42776539",
-          "title": "Multidimensional Aging Trajectories Preceding Cardiovascular Events.",
-          "journal": "JAMA cardiology",
-          "pub_date": "2026-09-23",
-          "pub_types": [
-            "Journal Article"
-          ],
-          "first_author": "Phyo A",
-          "doi": "10.1001/jamacardio.2026.3597",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42776539/",
-          "score": 5,
-          "tier": "diger",
-          "primary_type": "Journal Article"
-        },
-        {
-          "pmid": "42776524",
-          "title": "Interpreting 7-Year Valve Durability in PARTNER 3.",
-          "journal": "JAMA cardiology",
-          "pub_date": "2026-09-23",
-          "pub_types": [
-            "Journal Article"
-          ],
-          "first_author": "Marin-Cuartas M",
-          "doi": "10.1001/jamacardio.2026.3560",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42776524/",
-          "score": 5,
-          "tier": "diger",
-          "primary_type": "Journal Article"
-        },
-        {
-          "pmid": "42776511",
-          "title": "Lipoprotein(a) and Incident Venous Thromboembolism.",
-          "journal": "JAMA cardiology",
-          "pub_date": "2026-09-23",
-          "pub_types": [
-            "Journal Article"
-          ],
-          "first_author": "Dreher L",
-          "doi": "10.1001/jamacardio.2026.3964",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42776511/",
-          "score": 5,
-          "tier": "diger",
-          "primary_type": "Journal Article"
-        },
-        {
-          "pmid": "42776037",
-          "title": "Healthy bone marrow transplantation into hypertriglyceridemic rats improves cardiac reparative fibrosis post-myocardial infarction.",
-          "journal": "Cardiovascular research",
-          "pub_date": "2026-09-23",
-          "pub_types": [
-            "Journal Article"
-          ],
-          "first_author": "Ramos-Regalado L",
-          "doi": "10.1093/cvr/cvag204",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42776037/",
-          "score": 5,
-          "tier": "diger",
-          "primary_type": "Journal Article"
-        },
-        {
-          "pmid": "42775517",
-          "title": "\"Diagnosing Chronotropic Incompetence or Chronotropic Efficiency? Take the Fork in the Road…\".",
-          "journal": "European journal of preventive cardiology",
-          "pub_date": "2026-09-23",
-          "pub_types": [
-            "Journal Article"
-          ],
-          "first_author": "Wicks J",
-          "doi": "10.1093/eurjpc/zwag503",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42775517/",
-          "score": 5,
-          "tier": "diger",
-          "primary_type": "Journal Article"
-        },
-        {
-          "pmid": "42775432",
-          "title": "Multilaboratory, Blinded, Randomized Trial of Five Cerebroprotectants in Ischemic Stroke.",
-          "journal": "Circulation research",
-          "pub_date": "2026-09-23",
-          "pub_types": [
-            "Journal Article"
-          ],
-          "first_author": "Ayata C",
-          "doi": "10.1161/CIRCRESAHA.126.329467",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42775432/",
-          "score": 5,
-          "tier": "diger",
-          "primary_type": "Journal Article"
-        },
-        {
-          "pmid": "42773097",
-          "title": "Apparent non-overlap of endotypes in angina with non-obstructive coronary arteries may underestimate mixed vasomotor disorders.",
-          "journal": "European heart journal",
-          "pub_date": "2026-09-23",
-          "pub_types": [
-            "Journal Article"
-          ],
-          "first_author": "Hoshino M",
-          "doi": "10.1093/eurheartj/ehag697",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42773097/",
-          "score": 5,
-          "tier": "diger",
-          "primary_type": "Journal Article"
-        },
-        {
-          "pmid": "42772756",
-          "title": "Sport, exercise, and physical activity in children with cardiovascular disease. A Clinical Consensus Statement of the European Association of Preventive Cardiology (EAPC) of the ESC, the Association of Cardiovascular Nursing & Allied Professions (ACNAP) of the ESC, and the Association for European Paediatric and Congenital Cardiology (AEPC).",
-          "journal": "European journal of preventive cardiology",
-          "pub_date": "2026-09-23",
-          "pub_types": [
-            "Journal Article"
-          ],
-          "first_author": "Tiberi M",
-          "doi": "10.1093/eurjpc/zwag497",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42772756/",
-          "score": 5,
-          "tier": "diger",
-          "primary_type": "Journal Article"
         },
         {
           "pmid": "42663323",
@@ -2839,7 +4137,7 @@
           "first_author": "Kirchhof P",
           "doi": "10.1056/NEJMe2610344",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42663323/",
-          "score": 5,
+          "score": 3,
           "tier": "diger",
           "primary_type": "Editorial"
         },
@@ -2854,7 +4152,7 @@
           "first_author": "Sinan U",
           "doi": "10.1136/heartjnl-2026-327799",
           "url": "https://pubmed.ncbi.nlm.nih.gov/41748197/",
-          "score": 5,
+          "score": 3,
           "tier": "diger",
           "primary_type": "Editorial"
         },
@@ -2869,13 +4167,13 @@
           "first_author": "Arbel R",
           "doi": "10.1136/heartjnl-2026-327845",
           "url": "https://pubmed.ncbi.nlm.nih.gov/41730546/",
-          "score": 5,
+          "score": 3,
           "tier": "diger",
           "primary_type": "Editorial"
         }
       ],
-      "total_count": 189,
-      "tier1_count": 27
+      "total_count": 272,
+      "tier1_count": 46
     },
     "girisimsel": {
       "label": "Girişimsel & Koroner",
@@ -2894,9 +4192,24 @@
           "first_author": "Andreasen L",
           "doi": "10.1016/j.jcin.2026.06.027",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42805715/",
-          "score": 39,
+          "score": 37,
           "tier": "diger",
           "primary_type": "Randomized Controlled Trial"
+        },
+        {
+          "pmid": "42813266",
+          "title": "Drug-Coated Balloons for Side-Branch Treatment in Coronary Bifurcations: Ready for Prime Time?",
+          "journal": "Circulation. Cardiovascular interventions",
+          "pub_date": "2026-09-30",
+          "pub_types": [
+            "Editorial"
+          ],
+          "first_author": "Qamar A",
+          "doi": "10.1161/CIRCINTERVENTIONS.126.017233",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42813266/",
+          "score": 16,
+          "tier": "diger",
+          "primary_type": "Editorial"
         },
         {
           "pmid": "42808134",
@@ -2909,7 +4222,7 @@
           "first_author": "Verma M",
           "doi": "10.1097/MCA.0000000000001676",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42808134/",
-          "score": 18,
+          "score": 16,
           "tier": "diger",
           "primary_type": "Journal Article"
         },
@@ -2924,7 +4237,7 @@
           "first_author": "Kancerek J",
           "doi": "10.1097/MCA.0000000000001679",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42802987/",
-          "score": 18,
+          "score": 16,
           "tier": "diger",
           "primary_type": "Journal Article"
         },
@@ -2940,7 +4253,7 @@
           "first_author": "Bellini B",
           "doi": "10.1016/j.jcin.2026.06.018",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42805721/",
-          "score": 17,
+          "score": 15,
           "tier": "diger",
           "primary_type": "Multicenter Study"
         },
@@ -2956,7 +4269,7 @@
           "first_author": "Rottländer D",
           "doi": "10.1016/j.jcin.2026.06.034",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42805718/",
-          "score": 17,
+          "score": 15,
           "tier": "diger",
           "primary_type": "Multicenter Study"
         },
@@ -2972,9 +4285,24 @@
           "first_author": "Makkar R",
           "doi": "10.1016/j.jcin.2026.06.002",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42360254/",
-          "score": 17,
+          "score": 15,
           "tier": "diger",
           "primary_type": "Multicenter Study"
+        },
+        {
+          "pmid": "42814072",
+          "title": "Interaction Between Genotype, Phenotype, and Prognosis in Patients With Dilated Cardiomyopathy.",
+          "journal": "JACC. Cardiovascular imaging",
+          "pub_date": "2026-09-28",
+          "pub_types": [
+            "Journal Article"
+          ],
+          "first_author": "Li Y",
+          "doi": "10.1016/j.jcmg.2026.08.007",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42814072/",
+          "score": 14,
+          "tier": "diger",
+          "primary_type": "Journal Article"
         },
         {
           "pmid": "42805730",
@@ -2987,7 +4315,7 @@
           "first_author": "Tsukui T",
           "doi": "10.1016/j.jcin.2026.07.029",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42805730/",
-          "score": 16,
+          "score": 14,
           "tier": "diger",
           "primary_type": "Letter"
         },
@@ -3002,7 +4330,7 @@
           "first_author": "Gasparini G",
           "doi": "10.1016/j.jcin.2026.06.038",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42805729/",
-          "score": 16,
+          "score": 14,
           "tier": "diger",
           "primary_type": "Letter"
         },
@@ -3017,7 +4345,7 @@
           "first_author": "Kobayashi Y",
           "doi": "10.1016/j.jcin.2026.06.039",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42805728/",
-          "score": 16,
+          "score": 14,
           "tier": "diger",
           "primary_type": "Journal Article"
         },
@@ -3032,7 +4360,7 @@
           "first_author": "Crowder J",
           "doi": "10.1016/j.jcin.2026.05.034",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42805727/",
-          "score": 16,
+          "score": 14,
           "tier": "diger",
           "primary_type": "Journal Article"
         },
@@ -3047,7 +4375,7 @@
           "first_author": "Magyari B",
           "doi": "10.1016/j.jcin.2026.06.036",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42805726/",
-          "score": 16,
+          "score": 14,
           "tier": "diger",
           "primary_type": "Journal Article"
         },
@@ -3062,7 +4390,7 @@
           "first_author": "Tosaka K",
           "doi": "10.1016/j.jcin.2026.04.059",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42805725/",
-          "score": 16,
+          "score": 14,
           "tier": "diger",
           "primary_type": "Journal Article"
         },
@@ -3077,7 +4405,7 @@
           "first_author": "Cozzi O",
           "doi": "10.1016/j.jcin.2026.05.041",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42805724/",
-          "score": 16,
+          "score": 14,
           "tier": "diger",
           "primary_type": "Journal Article"
         },
@@ -3092,7 +4420,7 @@
           "first_author": "Shigeno R",
           "doi": "10.1016/j.jcin.2026.07.028",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42805723/",
-          "score": 16,
+          "score": 14,
           "tier": "diger",
           "primary_type": "Journal Article"
         },
@@ -3107,7 +4435,7 @@
           "first_author": "Sathanandam S",
           "doi": "10.1016/j.jcin.2026.05.040",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42805720/",
-          "score": 16,
+          "score": 14,
           "tier": "diger",
           "primary_type": "Journal Article"
         },
@@ -3123,7 +4451,7 @@
           "first_author": "Aikawa T",
           "doi": "10.1016/j.jcin.2026.06.023",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42671365/",
-          "score": 16,
+          "score": 14,
           "tier": "diger",
           "primary_type": "Comparative Study"
         },
@@ -3139,7 +4467,7 @@
           "first_author": "Anderton T",
           "doi": "10.1016/j.jcmg.2026.06.013",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42808932/",
-          "score": 14,
+          "score": 12,
           "tier": "diger",
           "primary_type": "Review"
         },
@@ -3154,7 +4482,7 @@
           "first_author": "Kim W",
           "doi": "10.1016/j.jcin.2026.07.003",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42805722/",
-          "score": 14,
+          "score": 12,
           "tier": "diger",
           "primary_type": "Editorial"
         },
@@ -3169,7 +4497,7 @@
           "first_author": "Hibbert B",
           "doi": "10.1016/j.jcin.2026.08.004",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42805719/",
-          "score": 14,
+          "score": 12,
           "tier": "diger",
           "primary_type": "Editorial"
         },
@@ -3184,7 +4512,7 @@
           "first_author": "Abdel-Wahab M",
           "doi": "10.1016/j.jcin.2026.06.037",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42805717/",
-          "score": 14,
+          "score": 12,
           "tier": "diger",
           "primary_type": "Editorial"
         },
@@ -3199,7 +4527,7 @@
           "first_author": "Anderson H",
           "doi": "10.1016/j.jcin.2026.08.005",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42805716/",
-          "score": 14,
+          "score": 12,
           "tier": "diger",
           "primary_type": "Editorial"
         },
@@ -3214,7 +4542,7 @@
           "first_author": "Macaya-Ten F",
           "doi": "10.1016/j.jcin.2026.06.035",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42805714/",
-          "score": 14,
+          "score": 12,
           "tier": "diger",
           "primary_type": "Editorial"
         },
@@ -3229,7 +4557,7 @@
           "first_author": "Aimo A",
           "doi": "10.1016/j.jcmg.2026.07.026",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42799727/",
-          "score": 7,
+          "score": 5,
           "tier": "diger",
           "primary_type": "Journal Article"
         },
@@ -3244,7 +4572,7 @@
           "first_author": "Sellgren F",
           "doi": "10.1161/CIRCINTERVENTIONS.126.016977",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42779544/",
-          "score": 7,
+          "score": 5,
           "tier": "diger",
           "primary_type": "Journal Article"
         },
@@ -3259,7 +4587,7 @@
           "first_author": "Lim S",
           "doi": "10.1161/CIRCINTERVENTIONS.126.016865",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42779535/",
-          "score": 7,
+          "score": 5,
           "tier": "diger",
           "primary_type": "Journal Article"
         },
@@ -3274,7 +4602,7 @@
           "first_author": "Wen S",
           "doi": "10.1097/MCA.0000000000001681",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42779176/",
-          "score": 7,
+          "score": 5,
           "tier": "diger",
           "primary_type": "Journal Article"
         },
@@ -3289,137 +4617,916 @@
           "first_author": "Kuzucu Ö",
           "doi": "10.1097/MCA.0000000000001677",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42779171/",
-          "score": 7,
-          "tier": "diger",
-          "primary_type": "Journal Article"
-        },
-        {
-          "pmid": "42775440",
-          "title": "Response by Bangalore et al to Letter Regarding Article, \"Is There a Golden Hour for Thrombectomy in Intermediate-Risk Pulmonary Embolism? Insights From SYMPHONY-PE\".",
-          "journal": "Circulation. Cardiovascular interventions",
-          "pub_date": "2026-09-23",
-          "pub_types": [
-            "Letter"
-          ],
-          "first_author": "Bangalore S",
-          "doi": "10.1161/CIRCINTERVENTIONS.126.017440",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42775440/",
-          "score": 5,
-          "tier": "diger",
-          "primary_type": "Letter"
-        },
-        {
-          "pmid": "42775439",
-          "title": "Artificial Intelligence-Derived Volumetric High-Risk Plaque Features Are Predominantly Located Proximal to Maximal Luminal Stenosis.",
-          "journal": "Circulation. Cardiovascular interventions",
-          "pub_date": "2026-09-23",
-          "pub_types": [
-            "Journal Article"
-          ],
-          "first_author": "Heil L",
-          "doi": "10.1161/CIRCINTERVENTIONS.126.017300",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42775439/",
           "score": 5,
           "tier": "diger",
           "primary_type": "Journal Article"
-        },
-        {
-          "pmid": "42775438",
-          "title": "Composite Pulmonary Embolism Shock Score and Outcomes in Intermediate-Risk Acute Pulmonary Embolism: A Multicenter PERT Consortium Registry Study.",
-          "journal": "Circulation. Cardiovascular interventions",
-          "pub_date": "2026-09-23",
-          "pub_types": [
-            "Journal Article"
-          ],
-          "first_author": "Kim J",
-          "doi": "10.1161/CIRCINTERVENTIONS.126.016881",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42775438/",
-          "score": 5,
-          "tier": "diger",
-          "primary_type": "Journal Article"
-        },
-        {
-          "pmid": "42775437",
-          "title": "Letter by Güner et al Regarding Article, \"Is There a Golden Hour for Thrombectomy in Intermediate-Risk Pulmonary Embolism? Insights From SYMPHONY-PE\".",
-          "journal": "Circulation. Cardiovascular interventions",
-          "pub_date": "2026-09-23",
-          "pub_types": [
-            "Letter"
-          ],
-          "first_author": "Güner A",
-          "doi": "10.1161/CIRCINTERVENTIONS.126.017390",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42775437/",
-          "score": 5,
-          "tier": "diger",
-          "primary_type": "Letter"
-        },
-        {
-          "pmid": "42773834",
-          "title": "The C-reactive protein-albumin-lymphocyte index is associated with coronary collateral circulation in patients with chronic total occlusion.",
-          "journal": "Coronary artery disease",
-          "pub_date": "2026-09-23",
-          "pub_types": [
-            "Journal Article"
-          ],
-          "first_author": "Erdoğan G",
-          "doi": "10.1097/MCA.0000000000001680",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42773834/",
-          "score": 5,
-          "tier": "diger",
-          "primary_type": "Journal Article"
-        },
-        {
-          "pmid": "42788910",
-          "title": "Grading Right Ventricular Dysfunction in Secondary Tricuspid Regurgitation: From Single Metrics to Integrated Assessment.",
-          "journal": "JACC. Cardiovascular imaging",
-          "pub_date": "2026-09-23",
-          "pub_types": [
-            "Editorial"
-          ],
-          "first_author": "Muraru D",
-          "doi": "10.1016/j.jcmg.2026.08.010",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42788910/",
-          "score": 3,
-          "tier": "diger",
-          "primary_type": "Editorial"
-        },
-        {
-          "pmid": "42788908",
-          "title": "New Eyes for an Old Problem.",
-          "journal": "JACC. Cardiovascular imaging",
-          "pub_date": "2026-09-23",
-          "pub_types": [
-            "Editorial"
-          ],
-          "first_author": "Szilveszter B",
-          "doi": "10.1016/j.jcmg.2026.08.014",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42788908/",
-          "score": 3,
-          "tier": "diger",
-          "primary_type": "Editorial"
-        },
-        {
-          "pmid": "42775446",
-          "title": "National Improvement in Radial Access Experience.",
-          "journal": "Circulation. Cardiovascular interventions",
-          "pub_date": "2026-09-23",
-          "pub_types": [
-            "Editorial"
-          ],
-          "first_author": "Shah T",
-          "doi": "10.1161/CIRCINTERVENTIONS.126.017396",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42775446/",
-          "score": 3,
-          "tier": "diger",
-          "primary_type": "Editorial"
         }
       ],
-      "total_count": 35,
+      "total_count": 29,
       "tier1_count": 0
     },
     "derlemeler": {
       "label": "Derlemeler",
       "articles": [
+        {
+          "pmid": "42546911",
+          "title": "Efficacy and tolerability of sodium-glucose cotransporter-2 inhibitors in transthyretin amyloid cardiomyopathy: A systematic review and stratified meta-analysis.",
+          "journal": "Current problems in cardiology",
+          "pub_date": "2026-10-01",
+          "pub_types": [
+            "Journal Article",
+            "Systematic Review",
+            "Meta-Analysis"
+          ],
+          "first_author": "Magnano R",
+          "doi": "10.1016/j.cpcardiol.2026.103409",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42546911/",
+          "score": 37,
+          "tier": "diger",
+          "primary_type": "Meta-Analysis"
+        },
+        {
+          "pmid": "42362130",
+          "title": "Prognostic value of albuminuria in heart failure with preserved ejection fraction: A systematic review.",
+          "journal": "Current problems in cardiology",
+          "pub_date": "2026-10-01",
+          "pub_types": [
+            "Journal Article",
+            "Systematic Review"
+          ],
+          "first_author": "Barbagelata L",
+          "doi": "10.1016/j.cpcardiol.2026.103391",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42362130/",
+          "score": 35,
+          "tier": "diger",
+          "primary_type": "Systematic Review"
+        },
+        {
+          "pmid": "42144029",
+          "title": "Comparative efficacy of baroreflex activation therapy, cardiac contractility modulation, and cardiac resynchronization therapy in heart failure with reduced ejection fraction: a systematic review and network meta-analysis of randomized controlled trials.",
+          "journal": "Current problems in cardiology",
+          "pub_date": "2026-10-01",
+          "pub_types": [
+            "Journal Article",
+            "Systematic Review",
+            "Network Meta-Analysis"
+          ],
+          "first_author": "Basu-Ray I",
+          "doi": "10.1016/j.cpcardiol.2026.103331",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42144029/",
+          "score": 35,
+          "tier": "diger",
+          "primary_type": "Systematic Review"
+        },
+        {
+          "pmid": "42716657",
+          "title": "The Interplay Between Dementia, Atrial Arrhythmias, and Atrial Cardiomyopathies: The Role of Cardiac Imaging and Left Atrial Assessment.",
+          "journal": "Heart failure clinics",
+          "pub_date": "2026-10-01",
+          "pub_types": [
+            "Journal Article",
+            "Review"
+          ],
+          "first_author": "Istratoaie S",
+          "doi": "10.1016/j.hfc.2026.07.008",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42716657/",
+          "score": 25,
+          "tier": "diger",
+          "primary_type": "Review"
+        },
+        {
+          "pmid": "42716656",
+          "title": "Amyloidosis: Cardiac and Neurologic Involvement.",
+          "journal": "Heart failure clinics",
+          "pub_date": "2026-10-01",
+          "pub_types": [
+            "Journal Article",
+            "Review"
+          ],
+          "first_author": "Allegro V",
+          "doi": "10.1016/j.hfc.2026.07.007",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42716656/",
+          "score": 25,
+          "tier": "diger",
+          "primary_type": "Review"
+        },
+        {
+          "pmid": "42716655",
+          "title": "Fabry Disease: Cardiac and Neurologic Involvement.",
+          "journal": "Heart failure clinics",
+          "pub_date": "2026-10-01",
+          "pub_types": [
+            "Journal Article",
+            "Review"
+          ],
+          "first_author": "Monda E",
+          "doi": "10.1016/j.hfc.2026.07.005",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42716655/",
+          "score": 25,
+          "tier": "diger",
+          "primary_type": "Review"
+        },
+        {
+          "pmid": "42716654",
+          "title": "Patent Foramen Ovale in Patients with Neurologic Events: When, How, and Whom to Treat.",
+          "journal": "Heart failure clinics",
+          "pub_date": "2026-10-01",
+          "pub_types": [
+            "Journal Article",
+            "Review"
+          ],
+          "first_author": "Go Y",
+          "doi": "10.1016/j.hfc.2026.07.004",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42716654/",
+          "score": 25,
+          "tier": "diger",
+          "primary_type": "Review"
+        },
+        {
+          "pmid": "42716653",
+          "title": "Heart Failure and Embolism.",
+          "journal": "Heart failure clinics",
+          "pub_date": "2026-10-01",
+          "pub_types": [
+            "Journal Article",
+            "Review"
+          ],
+          "first_author": "Frost C",
+          "doi": "10.1016/j.hfc.2026.07.003",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42716653/",
+          "score": 25,
+          "tier": "diger",
+          "primary_type": "Review"
+        },
+        {
+          "pmid": "42716652",
+          "title": "Structural and Functional Brain Features in Takotsubo Syndrome.",
+          "journal": "Heart failure clinics",
+          "pub_date": "2026-10-01",
+          "pub_types": [
+            "Journal Article",
+            "Review"
+          ],
+          "first_author": "Santoro F",
+          "doi": "10.1016/j.hfc.2026.07.002",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42716652/",
+          "score": 25,
+          "tier": "diger",
+          "primary_type": "Review"
+        },
+        {
+          "pmid": "42716651",
+          "title": "Neurogenic Cardiac Syndromes: Pathophysiology and Classification.",
+          "journal": "Heart failure clinics",
+          "pub_date": "2026-10-01",
+          "pub_types": [
+            "Journal Article",
+            "Review"
+          ],
+          "first_author": "Sahin A",
+          "doi": "10.1016/j.hfc.2026.07.006",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42716651/",
+          "score": 25,
+          "tier": "diger",
+          "primary_type": "Review"
+        },
+        {
+          "pmid": "42716650",
+          "title": "Heart and Brain: Anatomic and Physiologic Relationship.",
+          "journal": "Heart failure clinics",
+          "pub_date": "2026-10-01",
+          "pub_types": [
+            "Journal Article",
+            "Review"
+          ],
+          "first_author": "Kato K",
+          "doi": "10.1016/j.hfc.2026.07.001",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42716650/",
+          "score": 25,
+          "tier": "diger",
+          "primary_type": "Review"
+        },
+        {
+          "pmid": "42648866",
+          "title": "Complications of Transcatheter Aortic Valve Replacement: Contemporary Prevention, Recognition, and Management.",
+          "journal": "Interventional cardiology clinics",
+          "pub_date": "2026-10-01",
+          "pub_types": [
+            "Journal Article",
+            "Review"
+          ],
+          "first_author": "Kumar S",
+          "doi": "10.1016/j.iccl.2026.06.005",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42648866/",
+          "score": 25,
+          "tier": "diger",
+          "primary_type": "Review"
+        },
+        {
+          "pmid": "42648865",
+          "title": "Hypoattenuated Leaflet Thickening: Pathophysiology, Clinical Implications, and Its Role in Structural Valve Longevity.",
+          "journal": "Interventional cardiology clinics",
+          "pub_date": "2026-10-01",
+          "pub_types": [
+            "Journal Article",
+            "Review"
+          ],
+          "first_author": "Madanat L",
+          "doi": "10.1016/j.iccl.2026.06.004",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42648865/",
+          "score": 25,
+          "tier": "diger",
+          "primary_type": "Review"
+        },
+        {
+          "pmid": "42648864",
+          "title": "Conduction Disturbances and Pacing after Transcatheter Aortic Valve Replacement: Mechanisms, Risk Stratification, and Management.",
+          "journal": "Interventional cardiology clinics",
+          "pub_date": "2026-10-01",
+          "pub_types": [
+            "Journal Article",
+            "Review"
+          ],
+          "first_author": "AlBadri A",
+          "doi": "10.1016/j.iccl.2026.06.003",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42648864/",
+          "score": 25,
+          "tier": "diger",
+          "primary_type": "Review"
+        },
+        {
+          "pmid": "42648863",
+          "title": "Valve-In-Valve Transcatheter Aortic Valve Replacement: Advances in Planning, Technique, and Lifetime Management.",
+          "journal": "Interventional cardiology clinics",
+          "pub_date": "2026-10-01",
+          "pub_types": [
+            "Journal Article",
+            "Review"
+          ],
+          "first_author": "Proshkina A",
+          "doi": "10.1016/j.iccl.2026.05.005",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42648863/",
+          "score": 25,
+          "tier": "diger",
+          "primary_type": "Review"
+        },
+        {
+          "pmid": "42648862",
+          "title": "Transcatheter Aortic Valve Replacement for Native Aortic Regurgitation.",
+          "journal": "Interventional cardiology clinics",
+          "pub_date": "2026-10-01",
+          "pub_types": [
+            "Journal Article",
+            "Review"
+          ],
+          "first_author": "Guddeti R",
+          "doi": "10.1016/j.iccl.2026.06.002",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42648862/",
+          "score": 25,
+          "tier": "diger",
+          "primary_type": "Review"
+        },
+        {
+          "pmid": "42648861",
+          "title": "Transcatheter Aortic Valve Replacement with a Self-expanding Prosthesis.",
+          "journal": "Interventional cardiology clinics",
+          "pub_date": "2026-10-01",
+          "pub_types": [
+            "Journal Article",
+            "Review"
+          ],
+          "first_author": "Lamelas P",
+          "doi": "10.1016/j.iccl.2026.06.006",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42648861/",
+          "score": 25,
+          "tier": "diger",
+          "primary_type": "Review"
+        },
+        {
+          "pmid": "42648860",
+          "title": "Alternative Access for Transcatheter Aortic Valve Replacement: A Comprehensive Updated Review.",
+          "journal": "Interventional cardiology clinics",
+          "pub_date": "2026-10-01",
+          "pub_types": [
+            "Journal Article",
+            "Review"
+          ],
+          "first_author": "Qintar M",
+          "doi": "10.1016/j.iccl.2026.06.001",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42648860/",
+          "score": 25,
+          "tier": "diger",
+          "primary_type": "Review"
+        },
+        {
+          "pmid": "42648859",
+          "title": "Treatment of Bicuspid Aortic Valve Stenosis Using Transcatheter Heart Valves.",
+          "journal": "Interventional cardiology clinics",
+          "pub_date": "2026-10-01",
+          "pub_types": [
+            "Journal Article",
+            "Review"
+          ],
+          "first_author": "Kolkailah A",
+          "doi": "10.1016/j.iccl.2026.05.004",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42648859/",
+          "score": 25,
+          "tier": "diger",
+          "primary_type": "Review"
+        },
+        {
+          "pmid": "42648858",
+          "title": "Neurologic Complications after Transcatheter Aortic Valve Replacement: An Updated Review of Incidence, Current Treatments, and Future Directions.",
+          "journal": "Interventional cardiology clinics",
+          "pub_date": "2026-10-01",
+          "pub_types": [
+            "Journal Article",
+            "Review"
+          ],
+          "first_author": "Patel R",
+          "doi": "10.1016/j.iccl.2026.05.003",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42648858/",
+          "score": 25,
+          "tier": "diger",
+          "primary_type": "Review"
+        },
+        {
+          "pmid": "42648857",
+          "title": "Balloon-Expandable Transcatheter Aortic Valve Replacement: A Comprehensive Review of Current Evidence and Clinical Outcomes.",
+          "journal": "Interventional cardiology clinics",
+          "pub_date": "2026-10-01",
+          "pub_types": [
+            "Journal Article",
+            "Review"
+          ],
+          "first_author": "Jabri A",
+          "doi": "10.1016/j.iccl.2026.05.002",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42648857/",
+          "score": 25,
+          "tier": "diger",
+          "primary_type": "Review"
+        },
+        {
+          "pmid": "42648856",
+          "title": "Beyond the First Valve: A Longitudinal Framework for Aortic Valve Replacement Selection.",
+          "journal": "Interventional cardiology clinics",
+          "pub_date": "2026-10-01",
+          "pub_types": [
+            "Journal Article",
+            "Review"
+          ],
+          "first_author": "Amponsah D",
+          "doi": "10.1016/j.iccl.2026.05.001",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42648856/",
+          "score": 25,
+          "tier": "diger",
+          "primary_type": "Review"
+        },
+        {
+          "pmid": "42498234",
+          "title": "Impact of socioeconomic deprivation on outcomes in peripartum cardiomyopathy: A retrospective cohort study.",
+          "journal": "Current problems in cardiology",
+          "pub_date": "2026-10-01",
+          "pub_types": [
+            "Journal Article",
+            "Review"
+          ],
+          "first_author": "Behary Paray N",
+          "doi": "10.1016/j.cpcardiol.2026.103407",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42498234/",
+          "score": 25,
+          "tier": "diger",
+          "primary_type": "Review"
+        },
+        {
+          "pmid": "42486414",
+          "title": "Cardiorenal syndrome: pathophysiological crosstalk between heart and kidney.",
+          "journal": "Current problems in cardiology",
+          "pub_date": "2026-10-01",
+          "pub_types": [
+            "Journal Article",
+            "Review"
+          ],
+          "first_author": "Telli R",
+          "doi": "10.1016/j.cpcardiol.2026.103408",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42486414/",
+          "score": 25,
+          "tier": "diger",
+          "primary_type": "Review"
+        },
+        {
+          "pmid": "42476432",
+          "title": "The electrocardiogram manifestations of atrial and ventricular septal defects before and after repair.",
+          "journal": "Current problems in cardiology",
+          "pub_date": "2026-10-01",
+          "pub_types": [
+            "Journal Article",
+            "Review"
+          ],
+          "first_author": "Hasheminia A",
+          "doi": "10.1016/j.cpcardiol.2026.103406",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42476432/",
+          "score": 25,
+          "tier": "diger",
+          "primary_type": "Review"
+        },
+        {
+          "pmid": "42472601",
+          "title": "Clinical manifestations, diagnosis, and therapeutic advances in May-Thurner Syndrome: A comprehensive literature review.",
+          "journal": "Current problems in cardiology",
+          "pub_date": "2026-10-01",
+          "pub_types": [
+            "Journal Article",
+            "Review"
+          ],
+          "first_author": "Ezekwueme F",
+          "doi": "10.1016/j.cpcardiol.2026.103402",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42472601/",
+          "score": 25,
+          "tier": "diger",
+          "primary_type": "Review"
+        },
+        {
+          "pmid": "42471103",
+          "title": "In-hospital outcomes of sepsis hospitalizations among patients with cardiac amyloidosis: A 2022 National inpatient sample analysis.",
+          "journal": "Current problems in cardiology",
+          "pub_date": "2026-10-01",
+          "pub_types": [
+            "Journal Article",
+            "Review"
+          ],
+          "first_author": "Saad A",
+          "doi": "10.1016/j.cpcardiol.2026.103404",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42471103/",
+          "score": 25,
+          "tier": "diger",
+          "primary_type": "Review"
+        },
+        {
+          "pmid": "42471101",
+          "title": "Physical activity and cardiorespiratory fitness in atherosclerotic cardiovascular disease risk prediction: integrating digital phenotyping, mechanistic insights, and multimodal clinical prediction for actionable stratification.",
+          "journal": "Current problems in cardiology",
+          "pub_date": "2026-10-01",
+          "pub_types": [
+            "Journal Article",
+            "Review"
+          ],
+          "first_author": "Liu R",
+          "doi": "10.1016/j.cpcardiol.2026.103399",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42471101/",
+          "score": 25,
+          "tier": "diger",
+          "primary_type": "Review"
+        },
+        {
+          "pmid": "42471099",
+          "title": "Observational analyses in cardiovascular device evaluation, methods, applications, and challenges: A comprehensive review.",
+          "journal": "Current problems in cardiology",
+          "pub_date": "2026-10-01",
+          "pub_types": [
+            "Journal Article",
+            "Review"
+          ],
+          "first_author": "Sandeep B",
+          "doi": "10.1016/j.cpcardiol.2026.103398",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42471099/",
+          "score": 25,
+          "tier": "diger",
+          "primary_type": "Review"
+        },
+        {
+          "pmid": "42471098",
+          "title": "Heatwaves and cardiovascular mortality: Pathophysiological pathways, environmental co-determinants, and the role of autonomic monitoring.",
+          "journal": "Current problems in cardiology",
+          "pub_date": "2026-10-01",
+          "pub_types": [
+            "Journal Article",
+            "Review"
+          ],
+          "first_author": "Moscucci F",
+          "doi": "10.1016/j.cpcardiol.2026.103405",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42471098/",
+          "score": 25,
+          "tier": "diger",
+          "primary_type": "Review"
+        },
+        {
+          "pmid": "42379543",
+          "title": "Implantable cardioverter-defibrillator in cardiac sarcoidosis: A propensity-score matched analysis.",
+          "journal": "Current problems in cardiology",
+          "pub_date": "2026-10-01",
+          "pub_types": [
+            "Journal Article",
+            "Review"
+          ],
+          "first_author": "Yeap G",
+          "doi": "10.1016/j.cpcardiol.2026.103390",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42379543/",
+          "score": 25,
+          "tier": "diger",
+          "primary_type": "Review"
+        },
+        {
+          "pmid": "42364704",
+          "title": "Arterial stiffness in heart failure with preserved ejection fraction: is this a new predisposing factor?",
+          "journal": "Current problems in cardiology",
+          "pub_date": "2026-10-01",
+          "pub_types": [
+            "Journal Article",
+            "Review"
+          ],
+          "first_author": "Kalesi A",
+          "doi": "10.1016/j.cpcardiol.2026.103386",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42364704/",
+          "score": 25,
+          "tier": "diger",
+          "primary_type": "Review"
+        },
+        {
+          "pmid": "42364703",
+          "title": "The future of cardiovascular training: Bridging global disparities and building a hybrid model for equity in care.",
+          "journal": "Current problems in cardiology",
+          "pub_date": "2026-10-01",
+          "pub_types": [
+            "Journal Article",
+            "Review"
+          ],
+          "first_author": "Alhmouz M",
+          "doi": "10.1016/j.cpcardiol.2026.103389",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42364703/",
+          "score": 25,
+          "tier": "diger",
+          "primary_type": "Review"
+        },
+        {
+          "pmid": "42362132",
+          "title": "Disparities in healthcare access and treatment outcomes for patients with chronic limb-threatening ischemia.",
+          "journal": "Current problems in cardiology",
+          "pub_date": "2026-10-01",
+          "pub_types": [
+            "Journal Article",
+            "Review"
+          ],
+          "first_author": "Odugbemi O",
+          "doi": "10.1016/j.cpcardiol.2026.103392",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42362132/",
+          "score": 25,
+          "tier": "diger",
+          "primary_type": "Review"
+        },
+        {
+          "pmid": "42362131",
+          "title": "Diagnostic and prognostic value of coronary computed tomography angiography and high-risk plaque assessment in acute coronary syndrome.",
+          "journal": "Current problems in cardiology",
+          "pub_date": "2026-10-01",
+          "pub_types": [
+            "Journal Article",
+            "Review"
+          ],
+          "first_author": "Miceli A",
+          "doi": "10.1016/j.cpcardiol.2026.103393",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42362131/",
+          "score": 25,
+          "tier": "diger",
+          "primary_type": "Review"
+        },
+        {
+          "pmid": "42362129",
+          "title": "Atherosclerosis as an evolutionary mismatch disease: from ancestral biology to cardiometabolic vulnerability.",
+          "journal": "Current problems in cardiology",
+          "pub_date": "2026-10-01",
+          "pub_types": [
+            "Journal Article",
+            "Review"
+          ],
+          "first_author": "Botto F",
+          "doi": "10.1016/j.cpcardiol.2026.103394",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42362129/",
+          "score": 25,
+          "tier": "diger",
+          "primary_type": "Review"
+        },
+        {
+          "pmid": "42362128",
+          "title": "Beyond troponin: emerging biomarker strategies to differentiate type 1 from type 2 myocardial infarction.",
+          "journal": "Current problems in cardiology",
+          "pub_date": "2026-10-01",
+          "pub_types": [
+            "Journal Article",
+            "Review"
+          ],
+          "first_author": "Saraullo S",
+          "doi": "10.1016/j.cpcardiol.2026.103395",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42362128/",
+          "score": 25,
+          "tier": "diger",
+          "primary_type": "Review"
+        },
+        {
+          "pmid": "42362127",
+          "title": "Takotsubo syndrome: Comparison of data from the 2024 world literature and the 2016-2018 InterTak registry subgroup.",
+          "journal": "Current problems in cardiology",
+          "pub_date": "2026-10-01",
+          "pub_types": [
+            "Journal Article",
+            "Review",
+            "Comparative Study"
+          ],
+          "first_author": "Madias J",
+          "doi": "10.1016/j.cpcardiol.2026.103387",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42362127/",
+          "score": 25,
+          "tier": "diger",
+          "primary_type": "Review"
+        },
+        {
+          "pmid": "42362126",
+          "title": "Evolving paradigms in cardiovascular pharmacology: advances and clinical significance.",
+          "journal": "Current problems in cardiology",
+          "pub_date": "2026-10-01",
+          "pub_types": [
+            "Journal Article",
+            "Review"
+          ],
+          "first_author": "Pandey R",
+          "doi": "10.1016/j.cpcardiol.2026.103388",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42362126/",
+          "score": 25,
+          "tier": "diger",
+          "primary_type": "Review"
+        },
+        {
+          "pmid": "42259462",
+          "title": "Psychopharmacological treatment of patients with heart failure: A narrative review of antidepressants and anxiolytics.",
+          "journal": "Current problems in cardiology",
+          "pub_date": "2026-10-01",
+          "pub_types": [
+            "Journal Article",
+            "Review"
+          ],
+          "first_author": "Pilarski B",
+          "doi": "10.1016/j.cpcardiol.2026.103385",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42259462/",
+          "score": 25,
+          "tier": "diger",
+          "primary_type": "Review"
+        },
+        {
+          "pmid": "42248492",
+          "title": "Clinical outcomes in patients with hypertension and renal artery stenosis across age categories.",
+          "journal": "Current problems in cardiology",
+          "pub_date": "2026-10-01",
+          "pub_types": [
+            "Journal Article",
+            "Review"
+          ],
+          "first_author": "Seri A",
+          "doi": "10.1016/j.cpcardiol.2026.103384",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42248492/",
+          "score": 25,
+          "tier": "diger",
+          "primary_type": "Review"
+        },
+        {
+          "pmid": "42242334",
+          "title": "Lipid-lowering therapy in acute coronary syndrome: Limitations of the stepwise approach and rationale for a 'strike early, strike strong' strategy.",
+          "journal": "Current problems in cardiology",
+          "pub_date": "2026-10-01",
+          "pub_types": [
+            "Journal Article",
+            "Review"
+          ],
+          "first_author": "Rossi B",
+          "doi": "10.1016/j.cpcardiol.2026.103383",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42242334/",
+          "score": 25,
+          "tier": "diger",
+          "primary_type": "Review"
+        },
+        {
+          "pmid": "42242333",
+          "title": "Determinants of cardiorespiratory fitness after successfully reperfused ST-elevation myocardial infarction.",
+          "journal": "Current problems in cardiology",
+          "pub_date": "2026-10-01",
+          "pub_types": [
+            "Journal Article",
+            "Review"
+          ],
+          "first_author": "Hogwood A",
+          "doi": "10.1016/j.cpcardiol.2026.103382",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42242333/",
+          "score": 25,
+          "tier": "diger",
+          "primary_type": "Review"
+        },
+        {
+          "pmid": "42155787",
+          "title": "Multimodal artificial intelligence for early detection and precision management of inflammatory and infiltrative cardiomyopathies.",
+          "journal": "Current problems in cardiology",
+          "pub_date": "2026-10-01",
+          "pub_types": [
+            "Journal Article",
+            "Review"
+          ],
+          "first_author": "Adrejiya P",
+          "doi": "10.1016/j.cpcardiol.2026.103371",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42155787/",
+          "score": 25,
+          "tier": "diger",
+          "primary_type": "Review"
+        },
+        {
+          "pmid": "42142642",
+          "title": "Obesity and cardiovascular risk in down syndrome: Challenges and updated management.",
+          "journal": "Current problems in cardiology",
+          "pub_date": "2026-10-01",
+          "pub_types": [
+            "Journal Article",
+            "Review"
+          ],
+          "first_author": "Lumb A",
+          "doi": "10.1016/j.cpcardiol.2026.103372",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42142642/",
+          "score": 25,
+          "tier": "diger",
+          "primary_type": "Review"
+        },
+        {
+          "pmid": "42107513",
+          "title": "Endothelial cell metabolic reprogramming and pulmonary hypertension: Research progress and therapeutic potential.",
+          "journal": "Current problems in cardiology",
+          "pub_date": "2026-10-01",
+          "pub_types": [
+            "Journal Article",
+            "Review"
+          ],
+          "first_author": "Zhu R",
+          "doi": "10.1016/j.cpcardiol.2026.103360",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42107513/",
+          "score": 25,
+          "tier": "diger",
+          "primary_type": "Review"
+        },
+        {
+          "pmid": "42107512",
+          "title": "Sociodemographic factors associated with major adverse cardiovascular events in the Ñuble Region in Chile: An ecological study.",
+          "journal": "Current problems in cardiology",
+          "pub_date": "2026-10-01",
+          "pub_types": [
+            "Journal Article",
+            "Review"
+          ],
+          "first_author": "Araneda J",
+          "doi": "10.1016/j.cpcardiol.2026.103359",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42107512/",
+          "score": 25,
+          "tier": "diger",
+          "primary_type": "Review"
+        },
+        {
+          "pmid": "41775311",
+          "title": "Stretch-induced syncope: An examination of a rarely recognized condition.",
+          "journal": "Trends in cardiovascular medicine",
+          "pub_date": "2026-10-01",
+          "pub_types": [
+            "Journal Article",
+            "Review"
+          ],
+          "first_author": "Keller C",
+          "doi": "10.1016/j.tcm.2026.02.013",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41775311/",
+          "score": 25,
+          "tier": "diger",
+          "primary_type": "Review"
+        },
+        {
+          "pmid": "41759797",
+          "title": "Challenges in the treatment of out-of-hospital cardiac arrest.",
+          "journal": "Trends in cardiovascular medicine",
+          "pub_date": "2026-10-01",
+          "pub_types": [
+            "Journal Article",
+            "Review"
+          ],
+          "first_author": "Ulmanova L",
+          "doi": "10.1016/j.tcm.2026.02.011",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41759797/",
+          "score": 25,
+          "tier": "diger",
+          "primary_type": "Review"
+        },
+        {
+          "pmid": "41759796",
+          "title": "Role of physical exercise for the management of arterial hypertension in women.",
+          "journal": "Trends in cardiovascular medicine",
+          "pub_date": "2026-10-01",
+          "pub_types": [
+            "Journal Article",
+            "Review"
+          ],
+          "first_author": "Bucciarelli V",
+          "doi": "10.1016/j.tcm.2026.02.010",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41759796/",
+          "score": 25,
+          "tier": "diger",
+          "primary_type": "Review"
+        },
+        {
+          "pmid": "41720227",
+          "title": "Impact of microplastics and nanoplastics on cardiovascular health.",
+          "journal": "Trends in cardiovascular medicine",
+          "pub_date": "2026-10-01",
+          "pub_types": [
+            "Journal Article",
+            "Review"
+          ],
+          "first_author": "Simonato M",
+          "doi": "10.1016/j.tcm.2026.02.008",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41720227/",
+          "score": 25,
+          "tier": "diger",
+          "primary_type": "Review"
+        },
+        {
+          "pmid": "41654203",
+          "title": "Septal reduction therapies for obstructive hypertrophic cardiomyopathy: Current strategies and evolving innovations.",
+          "journal": "Trends in cardiovascular medicine",
+          "pub_date": "2026-10-01",
+          "pub_types": [
+            "Journal Article",
+            "Review"
+          ],
+          "first_author": "Cui H",
+          "doi": "10.1016/j.tcm.2026.02.004",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41654203/",
+          "score": 25,
+          "tier": "diger",
+          "primary_type": "Review"
+        },
+        {
+          "pmid": "40780565",
+          "title": "Artificial intelligence and extended reality in TAVR: current applications and challenges.",
+          "journal": "Trends in cardiovascular medicine",
+          "pub_date": "2026-10-01",
+          "pub_types": [
+            "Journal Article",
+            "Review"
+          ],
+          "first_author": "Skalidis I",
+          "doi": "10.1016/j.tcm.2025.08.002",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40780565/",
+          "score": 25,
+          "tier": "diger",
+          "primary_type": "Review"
+        },
+        {
+          "pmid": "42815745",
+          "title": "Targeting the NO-sGC-cGMP Pathway in Cancer Therapy-Related Cardiac Dysfunction: The Emerging Role of Vericiguat.",
+          "journal": "Current problems in cardiology",
+          "pub_date": "2026-09-30",
+          "pub_types": [
+            "Journal Article",
+            "Review"
+          ],
+          "first_author": "Pezzi L",
+          "doi": "10.1016/j.cpcardiol.2026.103473",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42815745/",
+          "score": 23,
+          "tier": "diger",
+          "primary_type": "Review"
+        },
+        {
+          "pmid": "42815744",
+          "title": "Cardiac Paroxysmal Orthodeoxia Syndrome: A comprehensive process of this challenging disease starting from the clinical suspicion till the therapeutic procedure.",
+          "journal": "Current problems in cardiology",
+          "pub_date": "2026-09-30",
+          "pub_types": [
+            "Journal Article",
+            "Review"
+          ],
+          "first_author": "Youssef P",
+          "doi": "10.1016/j.cpcardiol.2026.103475",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42815744/",
+          "score": 23,
+          "tier": "diger",
+          "primary_type": "Review"
+        },
+        {
+          "pmid": "42814173",
+          "title": "Cardiac Sarcoidosis: A Practical Guide for Cardiologists.",
+          "journal": "Current cardiology reports",
+          "pub_date": "2026-09-30",
+          "pub_types": [
+            "Journal Article",
+            "Review"
+          ],
+          "first_author": "Imazio M",
+          "doi": "10.1007/s11886-026-02417-w",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42814173/",
+          "score": 23,
+          "tier": "diger",
+          "primary_type": "Review"
+        },
         {
           "pmid": "42810703",
           "title": "Early aortic valve replacement for asymptomatic severe aortic stenosis: an updated systematic review and meta-analysis.",
@@ -3432,7 +5539,7 @@
           "first_author": "Cannata F",
           "doi": "10.1016/j.pcad.2026.09.005",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42810703/",
-          "score": 23,
+          "score": 21,
           "tier": "diger",
           "primary_type": "Review"
         },
@@ -3448,7 +5555,7 @@
           "first_author": "Tavethia J",
           "doi": "10.1016/j.cpcardiol.2026.103470",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42810479/",
-          "score": 23,
+          "score": 21,
           "tier": "diger",
           "primary_type": "Review"
         },
@@ -3464,7 +5571,7 @@
           "first_author": "Mortada I",
           "doi": "10.1016/j.cpcardiol.2026.103471",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42810478/",
-          "score": 23,
+          "score": 21,
           "tier": "diger",
           "primary_type": "Review"
         },
@@ -3480,7 +5587,7 @@
           "first_author": "de Victo E",
           "doi": "10.1016/j.cpcardiol.2026.103476",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42810477/",
-          "score": 23,
+          "score": 21,
           "tier": "diger",
           "primary_type": "Review"
         },
@@ -3496,7 +5603,7 @@
           "first_author": "Damonte J",
           "doi": "10.1016/j.cpcardiol.2026.103474",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42810476/",
-          "score": 23,
+          "score": 21,
           "tier": "diger",
           "primary_type": "Review"
         },
@@ -3512,7 +5619,7 @@
           "first_author": "Tempesta A",
           "doi": "10.1016/j.cpcardiol.2026.103479",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42810475/",
-          "score": 23,
+          "score": 21,
           "tier": "diger",
           "primary_type": "Review"
         },
@@ -3528,7 +5635,7 @@
           "first_author": "Kazin A",
           "doi": "10.1016/j.cpcardiol.2026.103477",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42810474/",
-          "score": 23,
+          "score": 21,
           "tier": "diger",
           "primary_type": "Review"
         },
@@ -3544,7 +5651,7 @@
           "first_author": "Matta A",
           "doi": "10.1016/j.cpcardiol.2026.103469",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42810473/",
-          "score": 23,
+          "score": 21,
           "tier": "diger",
           "primary_type": "Review"
         },
@@ -3560,7 +5667,7 @@
           "first_author": "Sun C",
           "doi": "10.1016/j.cpcardiol.2026.103478",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42810472/",
-          "score": 23,
+          "score": 21,
           "tier": "diger",
           "primary_type": "Review"
         },
@@ -3576,7 +5683,7 @@
           "first_author": "Kawtharany H",
           "doi": "10.1016/j.cpcardiol.2026.103458",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42800493/",
-          "score": 16,
+          "score": 14,
           "tier": "diger",
           "primary_type": "Review"
         },
@@ -3592,7 +5699,7 @@
           "first_author": "Delaunay M",
           "doi": "10.1007/s11886-026-02420-1",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42791418/",
-          "score": 16,
+          "score": 14,
           "tier": "diger",
           "primary_type": "Review"
         },
@@ -3608,28 +5715,12 @@
           "first_author": "Keller B",
           "doi": "10.1007/s11886-026-02421-0",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42778804/",
-          "score": 12,
-          "tier": "diger",
-          "primary_type": "Review"
-        },
-        {
-          "pmid": "42777790",
-          "title": "Back to the future: Revisiting \"leave nothing behind\" when managing coronary artery disease.",
-          "journal": "Progress in cardiovascular diseases",
-          "pub_date": "2026-09-23",
-          "pub_types": [
-            "Journal Article",
-            "Review"
-          ],
-          "first_author": "Gurgoglione F",
-          "doi": "10.1016/j.pcad.2026.09.008",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42777790/",
           "score": 10,
           "tier": "diger",
           "primary_type": "Review"
         }
       ],
-      "total_count": 13,
+      "total_count": 68,
       "tier1_count": 0
     }
   }
